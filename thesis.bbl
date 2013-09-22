@@ -1,0 +1,137 @@
+\begin{thebibliography}{10}
+
+\bibitem{cacheaware}
+Vishal Ahuja, Matthew Farrens, and Dipak Ghosal.
+\newblock Cache-aware affinitization on commodity multicores for high-speed
+  network flows.
+\newblock In {\em Proceedings of the eighth ACM/IEEE symposium on Architectures
+  for networking and communications systems}, ANCS '12, pages 39--48, New York,
+  NY, USA, 2012. ACM.
+
+\bibitem{peer}
+M.~Bardac, R.~Deaconescu, and A.M. Florea.
+\newblock Scaling peer-to-peer testing using linux containers.
+\newblock In {\em Roedunet International Conference (RoEduNet), 2010 9th},
+  pages 287--292, 2010.
+
+\bibitem{synthetic}
+Jianhua Che, Yong Yu, Congcong Shi, and Weimin Lin.
+\newblock A synthetical performance evaluation of openvz, xen and kvm.
+\newblock In {\em Services Computing Conference (APSCC), 2010 IEEE
+  Asia-Pacific}, pages 587--594, 2010.
+
+\bibitem{live_migration}
+Christopher Clark, Keir Fraser, Steven Hand, Jacob~Gorm Hansen, Eric Jul,
+  Christian Limpach, Ian Pratt, and Andrew Warfield.
+\newblock Live migration of virtual machines.
+\newblock In {\em Proceedings of the 2nd conference on Symposium on Networked
+  Systems Design \& Implementation - Volume 2}, NSDI'05, pages 273--286,
+  Berkeley, CA, USA, 2005. USENIX Association.
+
+\bibitem{mpi}
+MPI Commitee.
+\newblock Message passing interface.
+\newblock \url{http://www.mcs.anl.gov/research/projects/mpi/}, August 2013
+  (Last Accessed).
+
+\bibitem{sdn1}
+C.N.A. Correa, S.C. de~Lucena, D.~de~A.Leao~Marques, C.E. Rothenberg, and M.R.
+  Salvador.
+\newblock An experimental evaluation of lightweight virtualization for
+  software-defined routing platform.
+\newblock In {\em Network Operations and Management Symposium (NOMS), 2012
+  IEEE}, pages 607--610, 2012.
+
+\bibitem{hadoop}
+Apache~Software Foundation.
+\newblock hadoop.
+\newblock \url{http://hadoop.apache.org/}, August 2013 (Last Accessed).
+
+\bibitem{mesos}
+Apache~Software Foundation.
+\newblock Mesos.
+\newblock \url{http://mesos.apache.org/}, August 2013 (Last Accessed).
+
+\bibitem{kvmaffinity}
+Zhaoliang Guo and Qinfen Hao.
+\newblock Optimization of kvm network based on cpu affinity on multi-cores.
+\newblock In {\em Information Technology, Computer Engineering and Management
+  Sciences (ICM), 2011 International Conference on}, volume~4, pages 347--351,
+  2011.
+
+\bibitem{unlimited_scale}
+Todd Hoff.
+\newblock Building super scalable systems.
+\newblock
+  \url{http://highscalability.com/blog/2009/12/16/building-super-scalable-systems-blade-runner-meets-autonomic.html},
+  August 2013 (Last Accessed).
+
+\bibitem{lxc}
+Linux.
+\newblock Linux containers.
+\newblock \url{http://sourceforge.net/projects/lxc/}, August 2013 (Last
+  Accessed).
+
+\bibitem{fourcomp}
+Benjamin Quétier, Vincent Neri, and Franck Cappello.
+\newblock Scalability comparison of four host virtualization tools.
+\newblock {\em Journal of Grid Computing}, 5(1):83--98, 2007.
+
+\bibitem{auto_vm_migration}
+Inc Red~Hat.
+\newblock Automatic virtual machine migration.
+\newblock
+  \url{https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Virtualization/3.0/html/Administration_Guide/Tasks_RHEV_Migration_Automatic_Virtual_Machine_Migration.html},
+  August 2013 (Last Accessed).
+
+\bibitem{sdn2}
+L.~Sarzyniec, T.~Buchert, E.~Jeanvoine, and L.~Nussbaum.
+\newblock Design and evaluation of a virtual experimental environment for
+  distributed systems.
+\newblock In {\em Parallel, Distributed and Network-Based Processing (PDP),
+  2013 21st Euromicro International Conference on}, pages 172--179, 2013.
+
+\bibitem{5346711}
+J.E. Smith and R.~Nair.
+\newblock The architecture of virtual machines.
+\newblock {\em Computer}, 38(5):32--38, 2005.
+
+\bibitem{container2}
+Stephen Soltesz, Herbert P\"{o}tzl, Marc~E. Fiuczynski, Andy Bavier, and Larry
+  Peterson.
+\newblock Container-based operating system virtualization: a scalable,
+  high-performance alternative to hypervisors.
+\newblock {\em SIGOPS Oper. Syst. Rev.}, 41(3):275--287, March 2007.
+
+\bibitem{coreos}
+Open Source.
+\newblock Coreos.
+\newblock \url{http://coreos.com/}, August 2013 (Last Accessed).
+
+\bibitem{openvswitch}
+Open Source.
+\newblock Open vswitch.
+\newblock \url{http://openvswitch.org/}, August 2013 (Last Accessed).
+
+\bibitem{container1}
+M.G. Xavier, M.V. Neves, F.D. Rossi, T.C. Ferreto, T.~Lange, and C.A.F.
+  De~Rose.
+\newblock Performance evaluation of container-based virtualization for high
+  performance computing environments.
+\newblock In {\em Parallel, Distributed and Network-Based Processing (PDP),
+  2013 21st Euromicro International Conference on}, pages 233--240, 2013.
+
+\bibitem{futuregrid}
+XSEDE.
+\newblock Futuregrid.
+\newblock \url{https://portal.futuregrid.org/}, August 2013 (Last Accessed).
+
+\bibitem{younge2011analysis}
+Andrew~J Younge, Robert Henschel, James~T Brown, Gregor von Laszewski, Judy
+  Qiu, and Geoffrey~C Fox.
+\newblock Analysis of virtualization technologies for high performance
+  computing environments.
+\newblock In {\em Cloud Computing (CLOUD), 2011 IEEE International Conference
+  on}, pages 9--16. IEEE, 2011.
+
+\end{thebibliography}

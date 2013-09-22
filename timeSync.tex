@@ -1,0 +1,31 @@
+\chapter*{Timesync}
+Time is an important factor in wireless sensor networks. In wireless sensor networks motes do important work only for short amount of time and most of the time they are idle, the main component which consumes lot of power is radio, so to save power radio must be turned off and should be kept on only when required. For doing this every mote must be time synced and should know when to transmit and receive data so that the there is no packet loss. This calls for a robust time synchronization protocol. The  commonly used protocol for time synchronization is \textit{Flooding Time Synchronization Protocol} \cite{Maroti:2004:FTS:1031495.1031501}. Flooding time synchronization protocol is best for time stamping as the error rate per hop is within one microsecond. But this high time efficiency comes at the cost of frequent transmission of synchronization beacon and excessive data transmission. Now if there is some application which transmits data every minute and doesn't require exact time to work then we are using most of the energy of the mote just for time synchronization although its not that important. Also flooding time synchronization protocol uses broadcast mechanism to synchronize the time as all the node start transmitting this synchronization packet at the same time it can lead to congestion of the channel.
+
+This thesis takes a different approach to solve the above problems. In this approach the parent transmits the synchronization packet only when it wants to check whether its child is having data to transmit or not. As in this case the data is transmitted every minute, the parent send the synchronization packet every minute. As soon as the child receives the synchronization packet it sets its clock with the clock of its parents and then transmits the data packet to its parent. Instead of concentrating on whole network for time synchronization, this approach focuses on the time synchronization of the parent and the child mote which indirectly synchronizes the whole network. This in turn eliminates the need of unnecessary synchronization packets which saves power and also prevents network from getting congested.
+
+%Time is an important factor in wireless sensor networks. Power failure is common in wireless sensor network, it can happen due to loss of power. When a node regains it's state it should know the global time of the network. Also if two node want to communicate they should wake up at the same time. All these reasons calls for synchronized time on all motes.\\In this project I am implementing \textit{Flooding Time Synchronization Protocol}\cite{FTSP}. In this algorithm every node broadcasts it's current time whenever it's time is in synchronization with the global clock. 
+%Figure \ref{fig:algorithm} illustrates the algorithm which I am using to synchronize the network with the clock at the root node.
+%\begin{figure}[htb]
+%\centering
+%\includegraphics[width=50mm]{algo.jpg}
+%\caption{Algorithm}
+%\label{fig:algorithm}
+%\end{figure}
+%As we can see in figure \ref{fig:algorithm} root broadcasts the sync command and waits for the ack, due to this all the nodes which are in the range of the root synchronize their time with the clock of the root. Now these synced node broadcasts sync message and wait for ack, all the node which are in its range and not yet synced synchronize their clock with this time. This process continues till the whole network is synced.
+%The main challenge in time synchronization is maintaining the same time on all the nodes. There can be different reasons because of which the local clock of the motes can change so we have to synchronize them periodically, in this project I am synchronizing the network after every minute.\\
+%As a part of experiment I recorded the local time on each node after every five minutes.\\
+%\begin{figure}[htb]
+%\centering
+%\includegraphics[width=50mm]{Time_sync.jpg}
+%\caption{Time Sync}
+%\label{fig:timeSync}
+%\end{figure}
+%Figure \ref{fig:timeSync} shows the time recorded on each motes after every five minutes. The X-axis shows the time in minutes when the data is recorded, Y-axis shows the local time recorded by each node when they receive the record signal.\\
+%\begin{figure}[htb]
+%\centering
+%\includegraphics[width=50mm]{Time_at_each_node_wrt_Root.jpg}
+%\caption{Time Sync wrt Root}
+%\label{fig:timeSyncWrtRoot}
+%\end{figure}
+%Figure \ref{fig:timeSyncWrtRoot} demonstrates the drift in the local clock of each node wrt root. In figure \ref{fig:timeSyncWrtRoot} X-axis represents the time in minutes when the data is recorded. Y-axis represents the difference in time of respective node and the root in milliseconds. As we can see in figure \ref{fig:timeSyncWrtRoot} the time difference is positive as well as negative. This is because we are using internal clock of micro-controller which works on internal RC oscillator. If the frequency of the RC oscillator is more than the local time of that node will be more than the time of the root node. If the frequency of the RC oscillator of a node is less that the root node then the local time at this node will be less than the root node.
+%\end{document}

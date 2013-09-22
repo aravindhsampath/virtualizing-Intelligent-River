@@ -1,0 +1,102 @@
+\chapter{Related Work}
+
+The core ideas of virtualization having stood the test of time have also prompted a variety of comparative studies by the academia as well as the industries.
+Andrew J. Younge et al. \cite{younge2011analysis} compared Xen and KVM with virtual resources from the FutureGrid project \cite{futuregrid} and claims, KVM performed significantly better than Xen, under the standard HPCC and SPEC  benchmarks. Another benchmark oriented synthetic study \cite{synthetic} claims OpenVZ (the predecessor of Linux Containers) performed exceptionally well on almost all benchmarks. But, also claims that Xen performs significantly better than KVM contradicting the results of other publishers.
+A recent study by Miguel G. Xavier et al. \cite{container1} and an earlier study \cite{container2}, again corroborates the fact that LXC performs significantly better than alternative virtualization platforms, Linux-VServer, OpenVZ, and Xen based on a variety of benchmarks including LINPACK, STREM, IOZONE, NETPIPE, and NPB. They also highlighted the shortcomings in isolation, and sharing in LXC which have already been addressed in the recent releases.
+A relatively old research work by Vincent Neri et al. \cite{fourcomp} threw light on serious performance limitations on Xen under certain operational circumstances and also motivated the need for microbenchmarks.
+
+Among the many new opportunities that were opened up by the relatively new and light-weight LXC, network virtualization or Software Defined Networking (SDN) attracted lots of research attention. Studies, \cite{sdn1}, and \cite{sdn2} discussed the performance benefits of large scale virtual network emulation by implementing open Vswitch \cite{openvswitch} on LXC based platforms. 
+Mesos \cite{mesos} , A clustered platform that provides fine-grained resource sharing among multiple frameworks like Hadoop \cite{hadoop} and MPI \cite{mpi} utilizes LXC to isolate and limit the CPU, Memory, Network, and I/O resources. Also, Mircea Bardac et al. \cite{peer} showcased the scalability of LXC by deploying a solution for testing large scale Peer-to-Peer systems.
+
+Resource affinity, Isolation and Control are discussed in detail in this thesis. Vishal Ahuja et al. \cite{cacheaware} provides an example of exploiting CPU isolation facilities to improve overall network throughput by pinning application, and protocol processing to the same processor core. The discussions in this thesis on providing resource affinity will enable Vishal Ahuja et al.'s  work to be applicable under LXC.
+Another interesting attempt by Zhaoling Guo and Qinfen Hao \cite{kvmaffinity} made use of cgroups (the isolation mechanism used by LXC ) in combination with KVM to enable CPU affinity to achieve improved performance.
+
+CoreOS \cite{coreos}, in its very early stages and being actively developed at the time of writing of this thesis is a very light weight operating system (Linux Kernel+systemd) that is built to run in containerized environments attempts to lower the overhead by eliminating redundant operating system functions.
+
+%LXC, being the newest among the discussed virtualization techniques, opened up new opportunities and provided better interfaces to 
+
+%It seems an apparent consensus that LXC provided a near native performance with 
+
+%Yet to be written !
+
+%All the previous comparison work on xev vs kvm vs openvz/Lxc - read the papers and provide an idea why I did this thesis.
+
+%discuss cpu affinity paper
+
+%discuss coreos
+
+%discuss security
+
+%refer the papers for other related work
+
+
+
+%\section{Hardware Platform}
+%This section considers existing hardware platforms designed to sense parameters of the physical world. The discussion is divided into four subsections, focused on solar energy harvesting, vibrational energy harvesting, radio frequency energy harvesting, and other modern sensing platforms.
+%
+%\subsection{Solar Energy Harvesting Platforms}\label{subsec:solar_energy_harvesting_platforms}
+%\subsubsection{TinyNode}
+%Ferriere et al. present a platform for wireless sensor networks called TinyNode \cite{Dubois-Ferriere:2006:TCP:1127777.1127831}. TinyNode consists of a core module and an array of extension boards to provide additional functionality. This modular design enables the platform to be tailored in an application-specific manner. The core module consists of an MSP430F1611 \cite{bib_msp430f1611} microcontoller, an XE1205 \cite{bib_xe1205} transceiver, flash storage, a voltage regulator, and an extension connector. TinyNode offers a wide range of options for energy, storage, and communication. The platform offers ethernet, WLAN, and GPRS connectivity, and is supported by the TinyOS \cite{bib_tinyos} operating system. By including a solar harvesting board, the device is capable of long-term outdoor operation. TinyNode utilizes a two-tier architecture for energy storage. The primary storage component is a super capacitor, and the secondary storage component is a Li-Ion battery. The main advantage of this hierarchical structure is a reduction in the number of charging cycles for the Li-Ion battery. Voltage is measured at the primary storage component, and the secondary storage component; solar current is also measured.
+%% our system does not support ethernet, WLAN, and GPRS connectivity to reduce the cost of the device.
+%
+%\subsubsection{Heliomote}
+%Lin et al. present a system to harvest solar energy called Heliomote \cite{Lin:2005:HEL:1098918.1098974}. Heliomote can be used to power a variety of sensor nodes, including those in the Mica and  Telos family. Heliomote uses solar panels to harvest solar energy from the environment and stores the harvested energy in super-capacitors and batteries. While similar to the TinyNode harvesting design, Heliomote implements enhanced features to increase the efficiency of energy harvesting. First, it is autonomous in making decisions about energy harvesting and energy storage. It has a dedicated circuit to track the maximum power point (MPP) of the solar panels, which it uses to maximize the energy transfer from the solar panels to the storage devices. MPP tracking is adaptive and does not depend on the specific solar panel being used. Next, it has  overcharge and undercharge circuits for optimal utilization of the battery and super-capacitor. Finally, the output voltage level is configurable. It also exposes an I2C interface that allows the connected wireless sensor node to gather information about the harvesting circuit.
+%%In contrast, our system powers the device directly from the solar panel and stores the excess power in Li-Ion battery. To reduce the cost of the device it eliminates the MPP circuit.
+%
+%\subsection{Other Platforms}\label{subsec:other_platforms}
+%
+%\subsubsection{Mica motes}
+%A research team at the University of California, Berkeley designed a family of platforms for wireless sensor networks called Mica motes \cite{culler2002mica}. After designing the first iteration of the Mica platform, the team created the Mica2 \cite{bib_mica2}, Mica2Dot \cite{bib_mica2dot}, and MicaZ \cite{bib_micaz} platforms with similar architectures, all of which were widely adopted. Each mote in the Mica family consists of a microcontroller, a transceiver, flash storage, and a voltage regulator. The communication frequency of the Mica motes vary depending on their generation. Mica2 motes use an ATMEGA128L \cite{bib_atmega128} microcontroller and communicate at a frequency of 916 MHz, whereas MicaZ motes communicate at a frequency of 2400 MHz. The Mica2Dot is a smaller version of the Mica2 \textemdash approximately the size of a quarter. All the Mica platforms are supported by the TinyOS operating system.% In contrast, our system communicates at a frequency of 433 MHz. It also has a solar energy harvesting circuit which enables it to work without changing the batteries.
+%
+%\subsubsection{Telos mote}
+%Polastre et al. present a platform for wireless sensor networks called the Telos mote \cite{1440950}. Telos is an ultra-low power wireless sensor node. Telos motes consist of an MSP430 microcontroller, a CC2420 transceiver \cite{bib_cc2420}, and on-board sensors. Each Telos mote has a planar inverted folded antenna built on the printed circuit board, eliminating the need for an external antenna. In addition, each sub-circuit is isolated, allowing power to be toggled on and off for each sub-circuit. The primary benefit of Telos motes is their low power consumption.
+%%In contrast, our system uses low cost components to reduce the cost of the device. It also has a solar energy harvesting circuit which enables it to work for long periods of time without changing the batteries.
+%
+%In contrast to motes described in subsections \ref{subsec:solar_energy_harvesting_platforms} and \ref{subsec:other_platforms}, our hardware platform is a low-cost solution for wireless sensor networks. It use basic electronic components to reduce the cost of the device, without affecting its functionality. It has energy harvesting circuit for maintenance free operation for long periods of time. It can power the processing circuit and charge the battery simultaneously. It has a decision making circuit that can autonomously select between solar power supply and battery power supply depending on the voltage of the battery.
+%
+%\subsection{Vibrational Energy Harvesting Platforms}
+%Ottaman et al. \cite{1035141}\cite{1189621}, Sodano et al. \cite{sodano2004review}\cite{sodano2005comparison}, and Paradiso et al. \cite{1401839} focus on vibrational energy for energy harvesting. Piezoelectric elements are used to harvest vibrational energy. These elements transform ambient vibrations into electrical energy, which is then stored and used to power other devices. However, in most cases, the energy produced by these elements is too small to directly power an electrical device. Hence, the energy generated by these elements is stored in supercapacitors and used only when a specific energy level is reached. These devices have a short execution life.
+%In contrast, our system harvests solar energy, which in most cases generates enough energy to directly power an electrical device.
+%
+%\subsection{Radio Frequency Energy Harvesting Platforms}
+%Smith et al. describe a platform called WISP \cite{bib_wisp}\cite{4143524}\cite{1401841}, consisting of a general-purpose programmable flash microcontroller, RFID \cite{shepard2005rfid} tags, and sensors. WISP, having no secondary energy storage components, harvests all of its energy from radio frequency signals. As a result, it has a very short execution life and cannot be used to perform complex operations. There are many applications of WISP, including a simple RFID sensor network \cite{Buettner:2008:RSN:1460412.1460468}, and radio-triggered wake-ups with addressing capabilities for extremely low power sensor networks \cite{ansari2009radio}.
+%In contrast, our system has a long life and can perform complex operations.
+%
+%%\newpage
+%\section{Data Routing Protocols}
+%This section discusses prior work in the development of data routing protocols to sense and collect parameters of the physical world. The discussion is divided into three subsections, focused on hierarchical routing protocols, data-centric protocols, and location based routing protocols.
+%
+%\subsection{Hierarchical Routing Protocols}
+%This subsection discusses some of the most important hierarchical data routing protocols used to sense and collect data.
+%\subsubsection{LEACH}
+%Heinzelman et al. developed a hierarchical routing protocol called LEACH \cite{heinzelman2000energy} for sensor networks. LEACH forms clusters of sensor nodes based on their received signal strength. Each sensor node selects the cluster head that requires the minimum amount of energy for communication. It uses local cluster heads as relays to the \textit{\textbf{root}} mote. This saves energy, as only cluster heads transmit data to the root mote. In LEACH, data processing takes place locally within clusters. In order to balance the energy dissipation of motes, cluster heads change randomly over time. LEACH does not require any prior knowledge of the network. However, LEACH forms a two-hop network, where each mote transmits data to the local cluster head, and the cluster heads transmit data to the root mote. This makes LEACH unsuitable for large networks. In contrast, our protocol forms a multi-hop network, making it suitable for large, geographically distributed networks.
+%
+%\subsubsection{PEGASIS}
+%Lindsey and Raghavendra describe a hierarchical routing protocol called PEGASIS \cite{lindsey2002pegasis} for sensor networks. In PEGASIS, sensor motes join with their neighbors to form chains so that they can transmit and receive data from each other. One node from this chain is selected to transmit the aggregated data to the root. Due to chain formation, PEGASIS introduces additional delays during data transmission. All nodes must also have prior knowledge of the network. In contrast, our protocol does not require any prior knowledge of the network.
+%%To reduce this excessive delay, PEGASIS uses CDMA \cite{viterbi1995cdma} approach. In this approach, the chain forms a tree like structure, and each mote simultaneously transmits its data to its parent.
+%
+%\subsubsection{TEEN}
+%Manjeshwar and Agrawal describe a hierarchical routing protocol called TEEN \cite{manjeshwar2001teen} for sensor networks. TEEN is designed to be responsive to sudden changes in observation data. In TEEN, nearby nodes form clusters. After formation of the clusters, the cluster heads broadcast two thresholds, hard and soft, for sensed data. TEEN transmits data only if the value of the data is greater than the hard threshold, or the change in the value of the data is greater than the soft threshold. TEEN uses this approach to reduce the number of transmissions. However, TEEN is not suitable for applications where periodic data transmissions are required, as the root mote will not receive any data if the thresholds are not reached. In contrast to this, our protocol is suitable for applications that require periodic data transmission.
+%
+%
+%\subsection{Data-centric Protocols}
+%In many applications of wireless sensor networks, motes are deployed in large numbers with a constantly changing network topology. It is not feasible to assign unique identification numbers to each mote in such large networks, due to constant changes in their topology. Due to the lack of unique identification numbers, it is impossible to query specific sets of motes, and hence the queries must be transmitted to each mote in the network through broadcasts. In response, the sensing motes that satisfy a query send the response data to the querying mote. These queries can be based on attributes, such as the names of objects, time intervals, time durations, and geographical area. Some examples of data-centric protocols include SPIN \cite{Heinzelman:1999:API:313451.313529} , Directed Diffusion \cite{Estrin:1999:NCC:313451.313556} \cite{Intanagonwiwat:2000:DDS:345910.345920}, Rumor Routing \cite{Braginsky:2002:RRA:570738.570742}, Gradient-based Routing \cite{985819}, Constrained Anisotropic Diffusion Routing \cite{chu2002scalable}, COUGAR \cite{yao2002cougar}, and ACQUIRE \cite{1203365}.
+%
+%In contrast to these protocols, our protocol is hierarchical, and every mote in the network has a unique identification number. In our network, each mote can be queried based on this number.
+%
+%\subsection{Location Based Routing}
+%In some applications of sensor networks, awareness of a mote's location is important. The location can be used to calculate the distance between motes, or to transfer data in a more efficient manner. Most location-based routing protocols use a low power global positioning system (GPS) \cite{masumoto1993global}\cite{spiker1996global} to determine location. Minimum Energy Mobile Wireless Networks \cite{rodoplu1999minimum}, SMECN \cite{936317}, and GAF \cite{xu2001geography} are examples of protocols that use GPS to determine a mote's location. In addition, a mote's location can be calculated using the number of hops from the base station. GEAR \cite{yu2001geographical} and GPSR \cite{karp2000gpsr} are examples of protocols that use this method to locate motes.  Our protocol calculates its routing level based on the number of hops from the base station; it is not geographically aware.
+%
+%\section{Time Synchronization}
+%This section discusses prior work in the development of time synchronization protocols.
+%
+%\subsection{FTSP}
+%Maroti et al. present a time synchronization protocol called Flooding Time Synchronization Protocol (FTSP) \cite{Maroti:2004:FTS:1031495.1031501}. FTSP achieves per-hop synchronization with an accuracy of under one microsecond. This high efficiency comes at the cost of frequent transmission of synchronization packets. If there is an application which transmits data every few minutes, most of the network's energy will be spent on time synchronization. Further, since FTSP uses a broadcast mechanism for time synchronization, it can lead to channel congestion, exacerbating the power consumption problem.
+%
+%\subsection{RBS}
+%Elson et al. describe a time synchronization protocol called Reference Broadcast Synchronization (RBS) \cite{Elson:2002:FNT:844128.844143}. In RBS time synchronization, the sender transmits the time synchronization packet. This packet does not have a time stamp. After receiving this packet from a sender (at approximately the same instant), receivers exchange their local time to achieve pair-wise time synchronization. This excess exchange of packets can lead to channel congestion.
+%
+%\subsection{TPSN}
+%Ganeriwal describe a time synchronization protocol called Timing-sync Protocol for Sensor Networks (TPSN) \cite{Ganeriwal:2003:TPS:958491.958508}. TPSN is a two step protocol, consisting of level discovery and synchronization. The level discovery step runs once and forms a hierarchical topology, where each mote is assigned a level. In the synchronization step, a two-way message exchange takes place between each pair of motes. Pair-wise synchronizations are performed along the edge of the hierarchical structure. TPSN assumes that the clock drift between each pair of nodes is constant in the small time period during message exchange. It also assumes that the propagation delay is constant in both directions.
+%
+%A significant problem in using the FTSP, RBS, and TPSN time synchronization protocols is that each assumes the motes in the network will always be on. This thesis combines the best features of FTSP and TPSN to achieve time synchronization across the network. FTSP transmits synchronization packets very frequently, and has a significant overhead. In contrast, in our time synchronization protocol, the synchronization frequency is relatively less, and the synchronization overhead is negligible.
