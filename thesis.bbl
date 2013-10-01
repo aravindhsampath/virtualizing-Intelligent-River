@@ -8,11 +8,35 @@ Vishal Ahuja, Matthew Farrens, and Dipak Ghosal.
   for networking and communications systems}, ANCS '12, pages 39--48, New York,
   NY, USA, 2012. ACM.
 
+\bibitem{amdv}
+AMD.
+\newblock Amd-v virtualization extensions to x86.
+\newblock
+  \url{http://developer.amd.com/wordpress/media/2012/10/NPT-WP-1%201-final-TM.pdf},
+  October 2013 (Last Accessed).
+
 \bibitem{peer}
 M.~Bardac, R.~Deaconescu, and A.M. Florea.
 \newblock Scaling peer-to-peer testing using linux containers.
 \newblock In {\em Roedunet International Conference (RoEduNet), 2010 9th},
   pages 287--292, 2010.
+
+\bibitem{Tap_devices}
+Davide Brini.
+\newblock Coreos.
+\newblock \url{http://backreference.org/2010/03/26/tuntap-interface-tutorial/},
+  October 2013 (Last Accessed).
+
+\bibitem{ubuntu}
+Canonical.
+\newblock Ubuntu server.
+\newblock \url{http://www.ubuntu.com/download/server}, October 2013 (Last
+  Accessed).
+
+\bibitem{centos}
+CentOS.
+\newblock Community enterprise operating system.
+\newblock \url{www.centos.org}, October 2013 (Last Accessed).
 
 \bibitem{synthetic}
 Jianhua Che, Yong Yu, Congcong Shi, and Weimin Lin.
@@ -42,6 +66,19 @@ C.N.A. Correa, S.C. de~Lucena, D.~de~A.Leao~Marques, C.E. Rothenberg, and M.R.
 \newblock In {\em Network Operations and Management Symposium (NOMS), 2012
   IEEE}, pages 607--610, 2012.
 
+\bibitem{linux_incompetent}
+Glauber Costa.
+\newblock Resource isolation: The failure of operating systems and how we can
+  fix it - glauber costa.
+\newblock
+  \url{http://linuxconeurope2012.sched.org/event/bf1a2818e908e3a534164b52d5b85bf1?iframe=no&w=900&sidebar=yes&bg=no#.UKPuE3npvNA},
+  October 2013 (Last Accessed).
+
+\bibitem{debian}
+Debian.
+\newblock Debian - the universal operating system.
+\newblock \url{http://www.debian.org/}, October 2013 (Last Accessed).
+
 \bibitem{hadoop}
 Apache~Software Foundation.
 \newblock hadoop.
@@ -59,6 +96,12 @@ Zhaoliang Guo and Qinfen Hao.
   Sciences (ICM), 2011 International Conference on}, volume~4, pages 347--351,
   2011.
 
+\bibitem{rhel}
+Red Hat.
+\newblock Red hat enterprise linux.
+\newblock \url{http://www.redhat.com/products/enterprise-linux/server/},
+  October 2013 (Last Accessed).
+
 \bibitem{unlimited_scale}
 Todd Hoff.
 \newblock Building super scalable systems.
@@ -66,11 +109,91 @@ Todd Hoff.
   \url{http://highscalability.com/blog/2009/12/16/building-super-scalable-systems-blade-runner-meets-autonomic.html},
   August 2013 (Last Accessed).
 
+\bibitem{intelvtx}
+Intel.
+\newblock Hardware-assisted virtualization technology.
+\newblock
+  \url{http://www.intel.com/content/www/us/en/virtualization/virtualization-technology/hardware-assist-virtualization-technology.html},
+  October 2013 (Last Accessed).
+
+\bibitem{sr-iov_primer}
+Intel.
+\newblock Intel sr-iov primer.
+\newblock
+  \url{http://www.intel.com/content/dam/doc/application-note/pci-sig-sr-iov-primer-sr-iov-technology-paper.pdf},
+  October 2013 (Last Accessed).
+
+\bibitem{intelvtd}
+Intel.
+\newblock Intel virtualization technology for directed i/o: Spec.
+\newblock
+  \url{http://www.intel.com/content/www/us/en/intelligent-systems/intel-technology/vt-directed-io-spec.html},
+  October 2013 (Last Accessed).
+
+\bibitem{chroot}
+Linux.
+\newblock chroot - change root directory.
+\newblock \url{http://man7.org/linux/man-pages/man2/chroot.2.html}, October
+  2013 (Last Accessed).
+
+\bibitem{cgroups}
+Linux.
+\newblock Control groups.
+\newblock \url{https://lwn.net/Articles/524935/}, October 2013 (Last Accessed).
+
+\bibitem{huge_pages}
+Linux.
+\newblock Kernel documentation - summary of hugetlbpage support.
+\newblock \url{https://www.kernel.org/doc/Documentation/vm/hugetlbpage.txt},
+  October 2013 (Last Accessed).
+
 \bibitem{lxc}
 Linux.
 \newblock Linux containers.
 \newblock \url{http://sourceforge.net/projects/lxc/}, August 2013 (Last
   Accessed).
+
+\bibitem{kvm_linux_kernel}
+Linux.
+\newblock Linux kernel virtualization support with kvm.
+\newblock
+  \url{http://kernelnewbies.org/Linux_2_6_20#head-bca4fe7ffe454321118a470387c2be543ee51754},
+  October 2013 (Last Accessed).
+
+\bibitem{numa}
+Linux.
+\newblock Overview of non-uniform memory architecture.
+\newblock \url{http://man7.org/linux/man-pages/man7/numa.7.html}, October 2013
+  (Last Accessed).
+
+\bibitem{posix_msg_queues}
+Linux.
+\newblock Posix message queues.
+\newblock \url{http://man7.org/linux/man-pages/man7/mq_overview.7.html},
+  October 2013 (Last Accessed).
+
+\bibitem{qemu}
+Linux.
+\newblock Qemu.
+\newblock \url{http://wiki.qemu.org/Main_Page}, October 2013 (Last Accessed).
+
+\bibitem{sysv_ipc}
+Linux.
+\newblock System v inter process communication mechanisms.
+\newblock \url{http://man7.org/linux/man-pages/man7/svipc.7.html}, October 2013
+  (Last Accessed).
+
+\bibitem{zones}
+Oracle.
+\newblock Oracle solaris zones.
+\newblock
+  \url{http://docs.oracle.com/cd/E18440_01/doc.111/e18415/chapter_zones.htm},
+  October 2013 (Last Accessed).
+
+\bibitem{openvz}
+Parallels.
+\newblock Openvz.
+\newblock \url{http://openvz.org/Main_Page}, October 2013 (Last Accessed).
 
 \bibitem{fourcomp}
 Benjamin Quétier, Vincent Neri, and Franck Cappello.
@@ -83,6 +206,13 @@ Inc Red~Hat.
 \newblock
   \url{https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Virtualization/3.0/html/Administration_Guide/Tasks_RHEV_Migration_Automatic_Virtual_Machine_Migration.html},
   August 2013 (Last Accessed).
+
+\bibitem{jails}
+FreeBSD~Matteo Riondato.
+\newblock Jails - freebsd.
+\newblock
+  \url{http://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/jails.html},
+  October 2013 (Last Accessed).
 
 \bibitem{sdn2}
 L.~Sarzyniec, T.~Buchert, E.~Jeanvoine, and L.~Nussbaum.

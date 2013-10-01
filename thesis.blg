@@ -3,44 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: plain.bst
 Database file #1: bibliography.bib
-You've used 21 entries,
+Warning--I didn't find a database entry for "amd-iommu"
+You've used 42 entries,
             2118 wiz_defined-function locations,
-            607 strings with 7611 characters,
-and the built_in function-call counts, 7653 in all, are:
-= -- 740
-> -- 354
+            682 strings with 9964 characters,
+and the built_in function-call counts, 12063 in all, are:
+= -- 1160
+> -- 501
 < -- 10
-+ -- 144
-- -- 120
-* -- 481
-:= -- 1196
-add.period$ -- 66
-call.type$ -- 21
-change.case$ -- 123
++ -- 207
+- -- 162
+* -- 649
+:= -- 1931
+add.period$ -- 129
+call.type$ -- 42
+change.case$ -- 207
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 297
-empty$ -- 633
-format.name$ -- 120
-if$ -- 1689
+cite$ -- 42
+duplicate$ -- 444
+empty$ -- 1095
+format.name$ -- 162
+if$ -- 2655
 int.to.chr$ -- 0
-int.to.str$ -- 21
+int.to.str$ -- 42
 missing$ -- 12
-newline$ -- 108
-num.names$ -- 42
-pop$ -- 173
+newline$ -- 213
+num.names$ -- 84
+pop$ -- 341
 preamble$ -- 1
-purify$ -- 102
+purify$ -- 165
 quote$ -- 0
-skip$ -- 253
+skip$ -- 400
 stack$ -- 0
-substring$ -- 406
-swap$ -- 104
+substring$ -- 511
+swap$ -- 125
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
+type$ -- 168
 warning$ -- 0
-while$ -- 67
-width$ -- 23
-write$ -- 232
+while$ -- 109
+width$ -- 44
+write$ -- 442
+(There was 1 warning)

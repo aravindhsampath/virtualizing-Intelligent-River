@@ -48,40 +48,96 @@
 \citation{cacheaware}
 \citation{kvmaffinity}
 \citation{coreos}
+\citation{kvm_linux_kernel}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}Virtualization Technologies}{7}{chapter.3}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Linux Containers}{7}{section.3.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Block Diagram of the Mote Platform\relax }}{8}{figure.caption.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Kernel based Virtual Machines (KVM)}{7}{section.3.1}}
+\citation{qemu}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Block Diagram of a full-virtualization system\relax }}{8}{figure.caption.4}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{img_blockDia}{{3.1}{8}{Block Diagram of the Mote Platform\relax }{figure.caption.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Kernel based Virtual Machines (KVM)}{8}{section.3.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Solar Power Circuit\relax }}{8}{figure.caption.5}}
-\newlabel{img_solarPowerCircuit}{{3.2}{8}{Solar Power Circuit\relax }{figure.caption.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Xen}{9}{section.3.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Battery Circuit\relax }}{9}{figure.caption.6}}
-\newlabel{img_batteryCircuit}{{3.3}{9}{Battery Circuit\relax }{figure.caption.6}{}}
+\newlabel{img_full_virt}{{3.1}{8}{Block Diagram of a full-virtualization system\relax }{figure.caption.4}{}}
+\citation{intelvtx}
+\citation{amdv}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces KVM - Architecture\relax }}{9}{figure.caption.5}}
+\newlabel{img_kvm_arch}{{3.2}{9}{KVM - Architecture\relax }{figure.caption.5}{}}
+\citation{numa}
+\citation{huge_pages}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces KVM - Virtual CPU management\relax }}{10}{figure.caption.6}}
+\citation{Tap_devices}
+\citation{intelvtd}
+\citation{amd-iommu}
+\newlabel{fig:kvm-emulated}{{3.4a}{12}{KVM - Emulated Networking devices\relax }{figure.caption.7}{}}
+\newlabel{sub@fig:kvm-emulated}{{a}{12}{KVM - Emulated Networking devices\relax }{figure.caption.7}{}}
+\newlabel{fig:kvm-para}{{3.4b}{12}{KVM - Para-Virtualized Networking\relax }{figure.caption.7}{}}
+\newlabel{sub@fig:kvm-para}{{b}{12}{KVM - Para-Virtualized Networking\relax }{figure.caption.7}{}}
+\newlabel{fig:kvm-internal}{{3.4c}{12}{Public and Private Networking\relax }{figure.caption.7}{}}
+\newlabel{sub@fig:kvm-internal}{{c}{12}{Public and Private Networking\relax }{figure.caption.7}{}}
+\newlabel{fig:kvm-direct}{{3.4d}{12}{Direct Device Assignment\relax }{figure.caption.7}{}}
+\newlabel{sub@fig:kvm-direct}{{d}{12}{Direct Device Assignment\relax }{figure.caption.7}{}}
+\newlabel{fig:kvm-direct-sriov}{{3.4e}{12}{Direct Device Assignment with SR-IOV\relax }{figure.caption.7}{}}
+\newlabel{sub@fig:kvm-direct-sriov}{{e}{12}{Direct Device Assignment with SR-IOV\relax }{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Common Networking options for KVM\relax }}{12}{figure.caption.7}}
+\newlabel{fig:kvm-networking}{{3.4}{12}{Common Networking options for KVM\relax }{figure.caption.7}{}}
+\citation{sr-iov_primer}
+\citation{linux_incompetent}
+\citation{jails}
+\citation{zones}
+\citation{chroot}
+\citation{openvz}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Linux Containers}{13}{section.3.2}}
+\citation{rhel}
+\citation{debian}
+\citation{ubuntu}
+\citation{centos}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Linux Containers - Architecture\relax }}{15}{figure.caption.8}}
+\newlabel{img_lxc_arch}{{3.5}{15}{Linux Containers - Architecture\relax }{figure.caption.8}{}}
+\citation{sysv_ipc}
+\citation{posix_msg_queues}
+\citation{cgroups}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Xen}{17}{section.3.3}}
 \bibstyle{plain}
 \bibdata{bibliography}
 \bibcite{cacheaware}{1}
-\bibcite{peer}{2}
-\bibcite{synthetic}{3}
-\bibcite{live_migration}{4}
-\bibcite{mpi}{5}
-\bibcite{sdn1}{6}
-\bibcite{hadoop}{7}
-\bibcite{mesos}{8}
-\bibcite{kvmaffinity}{9}
-\bibcite{unlimited_scale}{10}
-\bibcite{lxc}{11}
-\bibcite{fourcomp}{12}
-\bibcite{auto_vm_migration}{13}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{10}{section*.7}}
-\bibcite{sdn2}{14}
-\bibcite{5346711}{15}
-\bibcite{container2}{16}
-\bibcite{coreos}{17}
-\bibcite{openvswitch}{18}
-\bibcite{container1}{19}
-\bibcite{futuregrid}{20}
-\bibcite{younge2011analysis}{21}
+\bibcite{amdv}{2}
+\bibcite{peer}{3}
+\bibcite{Tap_devices}{4}
+\bibcite{ubuntu}{5}
+\bibcite{centos}{6}
+\bibcite{synthetic}{7}
+\bibcite{live_migration}{8}
+\bibcite{mpi}{9}
+\bibcite{sdn1}{10}
+\bibcite{linux_incompetent}{11}
+\bibcite{debian}{12}
+\bibcite{hadoop}{13}
+\bibcite{mesos}{14}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{18}{section*.9}}
+\bibcite{kvmaffinity}{15}
+\bibcite{rhel}{16}
+\bibcite{unlimited_scale}{17}
+\bibcite{intelvtx}{18}
+\bibcite{sr-iov_primer}{19}
+\bibcite{intelvtd}{20}
+\bibcite{chroot}{21}
+\bibcite{cgroups}{22}
+\bibcite{huge_pages}{23}
+\bibcite{lxc}{24}
+\bibcite{kvm_linux_kernel}{25}
+\bibcite{numa}{26}
+\bibcite{posix_msg_queues}{27}
+\bibcite{qemu}{28}
+\bibcite{sysv_ipc}{29}
+\bibcite{zones}{30}
+\bibcite{openvz}{31}
+\bibcite{fourcomp}{32}
+\bibcite{auto_vm_migration}{33}
+\bibcite{jails}{34}
+\bibcite{sdn2}{35}
+\bibcite{5346711}{36}
+\bibcite{container2}{37}
+\bibcite{coreos}{38}
+\bibcite{openvswitch}{39}
+\bibcite{container1}{40}
+\bibcite{futuregrid}{41}
+\bibcite{younge2011analysis}{42}
