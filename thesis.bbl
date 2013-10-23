@@ -21,6 +21,24 @@ M.~Bardac, R.~Deaconescu, and A.M. Florea.
 \newblock In {\em Roedunet International Conference (RoEduNet), 2010 9th},
   pages 287--292, 2010.
 
+\bibitem{art_of_virt}
+Paul Barham, Boris Dragovic, Keir Fraser, Steven Hand, Tim Harris, Alex Ho,
+  Rolf Neugebauer, Ian Pratt, and Andrew Warfield.
+\newblock Xen and the art of virtualization.
+\newblock {\em SIGOPS Oper. Syst. Rev.}, 37(5):164--177, October 2003.
+
+\bibitem{amd-iommu}
+Muli Ben-Yehuda, Jon Mason, Jimi Xenidis, Orran Krieger, Leendert Van~Doorn,
+  Jun Nakajima, Asit Mallick, and Elsie Wahlig.
+\newblock Utilizing iommus for virtualization in linux and xen.
+\newblock In {\em OLS’06: The 2006 Ottawa Linux Symposium}, pages 71--86.
+  Citeseer, 2006.
+
+\bibitem{linux_namespaces_plan}
+Eric Biederman and Linux Networx.
+\newblock Multiple instances of the global linux namespaces.
+\newblock In {\em Proceedings of the Linux Symposium}. Citeseer, 2006.
+
 \bibitem{Tap_devices}
 Davide Brini.
 \newblock Coreos.
@@ -96,6 +114,20 @@ Zhaoliang Guo and Qinfen Hao.
   Sciences (ICM), 2011 International Conference on}, volume~4, pages 347--351,
   2011.
 
+\bibitem{key_namespace}
+Serge~E. Hallyn.
+\newblock Discussion on security key namespaces.
+\newblock
+  \url{http://lkml.indiana.edu/hypermail/linux/kernel/0902.3/01529.html},
+  October 2013 (Last Accessed).
+
+\bibitem{cgroups-redhat}
+Red Hat.
+\newblock cgroups - red hat enterprise linux - resource management guide.
+\newblock
+  \url{https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Resource_Management_Guide/ch01.html},
+  October 2013 (Last Accessed).
+
 \bibitem{rhel}
 Red Hat.
 \newblock Red hat enterprise linux.
@@ -129,6 +161,37 @@ Intel.
 \newblock
   \url{http://www.intel.com/content/www/us/en/intelligent-systems/intel-technology/vt-directed-io-spec.html},
   October 2013 (Last Accessed).
+
+\bibitem{namespaces4}
+Michael Kerrisk.
+\newblock More on pid namespaces.
+\newblock \url{https://lwn.net/Articles/532748/}, October 2013 (Last Accessed).
+
+\bibitem{namespaces6}
+Michael Kerrisk.
+\newblock More on user namespaces.
+\newblock \url{https://lwn.net/Articles/540087/}, October 2013 (Last Accessed).
+
+\bibitem{namespaces1}
+Michael Kerrisk.
+\newblock Namespaces - overview.
+\newblock \url{https://lwn.net/Articles/531114/#series_index}, October 2013
+  (Last Accessed).
+
+\bibitem{namespaces2}
+Michael Kerrisk.
+\newblock Namespaces - the api.
+\newblock \url{https://lwn.net/Articles/531381/}, October 2013 (Last Accessed).
+
+\bibitem{namespaces3}
+Michael Kerrisk.
+\newblock Pid namespaces.
+\newblock \url{https://lwn.net/Articles/531419/}, October 2013 (Last Accessed).
+
+\bibitem{namespaces5}
+Michael Kerrisk.
+\newblock User namespaces.
+\newblock \url{https://lwn.net/Articles/532593/}, October 2013 (Last Accessed).
 
 \bibitem{chroot}
 Linux.
@@ -195,6 +258,25 @@ Parallels.
 \newblock Openvz.
 \newblock \url{http://openvz.org/Main_Page}, October 2013 (Last Accessed).
 
+\bibitem{xen_perf}
+Ian Pratt.
+\newblock Xen virtual machine monitor performance.
+\newblock
+  \url{http://www.cl.cam.ac.uk/research/srg/netos/xen/performance.html},
+  October 2013 (Last Accessed).
+
+\bibitem{dom0_kernels}
+Xen Project.
+\newblock Dom0 - kernels.
+\newblock \url{http://wiki.xenproject.org/wiki/Dom0_Kernels_for_Xen}, October
+  2013 (Last Accessed).
+
+\bibitem{xen_overview}
+Xen Project.
+\newblock Xen - overview.
+\newblock \url{http://wiki.xen.org/wiki/Xen_Overview}, October 2013 (Last
+  Accessed).
+
 \bibitem{fourcomp}
 Benjamin Quétier, Vincent Neri, and Franck Cappello.
 \newblock Scalability comparison of four host virtualization tools.
@@ -212,6 +294,13 @@ FreeBSD~Matteo Riondato.
 \newblock Jails - freebsd.
 \newblock
   \url{http://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/jails.html},
+  October 2013 (Last Accessed).
+
+\bibitem{cgroups-rami-rosen}
+Rami Rosen.
+\newblock Namespaces and cgroups.
+\newblock
+  \url{http://media.wix.com/ugd//295986_d73d8d6087ed430c34c21f90b0b607fd.pdf},
   October 2013 (Last Accessed).
 
 \bibitem{sdn2}
@@ -243,6 +332,11 @@ Open Source.
 \newblock Open vswitch.
 \newblock \url{http://openvswitch.org/}, August 2013 (Last Accessed).
 
+\bibitem{paravirt}
+Andrew Whitaker, Marianne Shaw, and Steven~D. Gribble.
+\newblock Scale and performance in the denali isolation kernel.
+\newblock {\em SIGOPS Oper. Syst. Rev.}, 36(SI):195--209, December 2002.
+
 \bibitem{container1}
 M.G. Xavier, M.V. Neves, F.D. Rossi, T.C. Ferreto, T.~Lange, and C.A.F.
   De~Rose.
@@ -263,5 +357,11 @@ Andrew~J Younge, Robert Henschel, James~T Brown, Gregor von Laszewski, Judy
   computing environments.
 \newblock In {\em Cloud Computing (CLOUD), 2011 IEEE International Conference
   on}, pages 9--16. IEEE, 2011.
+
+\bibitem{paravirt1}
+Lamia Youseff, Rich Wolski, Brent Gorda, and Chandra Krintz.
+\newblock Paravirtualization for hpc systems.
+\newblock In {\em Frontiers of High Performance Computing and Networking--ISPA
+  2006 Workshops}, pages 474--486. Springer, 2006.
 
 \end{thebibliography}
