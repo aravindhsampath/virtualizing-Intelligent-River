@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  23 OCT 2013 04:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  25 NOV 2013 13:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -413,46 +413,70 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count135
 \c@subtable=\count136
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 66.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen140
+\extrarowheight=\dimen141
+\NC@list=\toks26
+\extratabsurround=\skip92
+\backup@length=\skip93
+)
+\TX@col@width=\dimen142
+\TX@old@table=\dimen143
+\TX@old@col=\dimen144
+\TX@target=\dimen145
+\TX@delta=\dimen146
+\TX@cols=\count137
+\TX@ftn=\toks27
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 67.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 66.
+(hyperref)                removing `\mathsurround' on input line 67.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 66.
+(hyperref)                removing `\z@' on input line 67.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 66.
+(hyperref)                removing `superscript' on input line 67.
 
-(./thesis.aux)
+(./thesis.aux
+
+LaTeX Warning: Label `table:features' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
 \AtBeginShipoutBox=\box33
  (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
 (/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-Package hyperref Info: Link coloring ON on input line 77.
+Package hyperref Info: Link coloring ON on input line 78.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -460,11 +484,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count137
+\c@section@level=\count138
 )
-LaTeX Info: Redefining \ref on input line 77.
-LaTeX Info: Redefining \pageref on input line 77.
-LaTeX Info: Redefining \nameref on input line 77.
+LaTeX Info: Redefining \ref on input line 78.
+LaTeX Info: Redefining \pageref on input line 78.
+LaTeX Info: Redefining \nameref on input line 78.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
@@ -507,17 +531,17 @@ LaTeX Info: Redefining \nameref on input line 77.
 
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count138
-\scratchdimen=\dimen140
+\scratchcounter=\count139
+\scratchdimen=\dimen147
 \scratchbox=\box34
-\nofMPsegments=\count139
-\nofMParguments=\count140
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count141
-\MPscratchDim=\dimen141
-\MPnumerator=\count142
-\makeMPintoPDFobject=\count143
-\everyMPtoPDFconversion=\toks27
+\nofMPsegments=\count140
+\nofMParguments=\count141
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count142
+\MPscratchDim=\dimen148
+\MPnumerator=\count143
+\makeMPintoPDFobject=\count144
+\everyMPtoPDFconversion=\toks29
 ) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -533,28 +557,28 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count144
+\c@lstlisting=\count145
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 82.
+LaTeX Font Info:    Try loading font information for U+msa on input line 83.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 82.
+LaTeX Font Info:    Try loading font information for U+msb on input line 83.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 82.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 83.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/sc' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
  [1
 
 
@@ -567,285 +591,674 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
 [2
 
 
-] (./introduction.tex
-Chapter 1.
-[1
+] (./thesis.toc [3
 
+])
+\tf@toc=\write5
+\openout5 = `thesis.toc'.
 
+ [4] (./thesis.lot)
+\tf@lot=\write6
+\openout6 = `thesis.lot'.
 
-] [2] [3]) [4] (./relatedWork.tex
-Chapter 2.
-[5
+ [5
 
-
-]) [6] (./virtualization.tex
-Chapter 3.
-<full-virt.png, id=139, 520.344pt x 424.4658pt>
-File: full-virt.png Graphic file (type png)
- <use full-virt.png>
-Package pdftex.def Info: full-virt.png used on input line 18.
-(pdftex.def)             Requested size: 341.43306pt x 278.53555pt.
- [7
-
-
-]
-[8 <./full-virt.png>] <kvm-arch2.png, id=157, 656.4525pt x 827.09pt>
-File: kvm-arch2.png Graphic file (type png)
-
-<use kvm-arch2.png>
-Package pdftex.def Info: kvm-arch2.png used on input line 30.
-(pdftex.def)             Requested size: 341.43306pt x 430.19023pt.
- <kvm-cpu.png, id=158, 365.6862pt x 381.1038pt>
-File: kvm-cpu.png Graphic file (type png)
-
-<use kvm-cpu.png>
-Package pdftex.def Info: kvm-cpu.png used on input line 45.
-(pdftex.def)             Requested size: 208.13574pt x 216.91739pt.
- [9 <./kvm-arch2.png>] [10 <./kvm-cpu.png>]
-<kvm-emulated.png, id=179, 358.4592pt x 393.6306pt>
-File: kvm-emulated.png Graphic file (type png)
- <use kvm-emulated.png>
-Package pdftex.def Info: kvm-emulated.png used on input line 62.
-(pdftex.def)             Requested size: 151.76964pt x 166.66313pt.
-
-<kvm-para.png, id=180, 359.4228pt x 393.6306pt>
-File: kvm-para.png Graphic file (type png)
- <use kvm-para.png>
-Package pdftex.def Info: kvm-para.png used on input line 70.
-(pdftex.def)             Requested size: 151.76964pt x 166.21265pt.
-
-<kvm-internal.png, id=181, 359.4228pt x 393.6306pt>
-File: kvm-internal.png Graphic file (type png)
- <use kvm-internal.png>
-Package pdftex.def Info: kvm-internal.png used on input line 78.
-(pdftex.def)             Requested size: 151.76964pt x 166.21265pt.
-
-<kvm-direct.png, id=182, 359.4228pt x 393.6306pt>
-File: kvm-direct.png Graphic file (type png)
- <use kvm-direct.png>
-Package pdftex.def Info: kvm-direct.png used on input line 84.
-(pdftex.def)             Requested size: 151.76964pt x 166.21265pt.
-
-<kvm-direct-sriov.png, id=183, 359.4228pt x 393.6306pt>
-File: kvm-direct-sriov.png Graphic file (type png)
-
-<use kvm-direct-sriov.png>
-Package pdftex.def Info: kvm-direct-sriov.png used on input line 90.
-(pdftex.def)             Requested size: 182.1196pt x 199.45158pt.
-
-
-LaTeX Warning: Float too large for page by 17.03236pt on input line 95.
-
-[11] [12 <./kvm-emulated.png> <./kvm-para.png> <./kvm-internal.png> <./kvm-dire
-ct.png> <./kvm-direct-sriov.png>] [13]
-<lxc-arch.png, id=235, 373.8768pt x 349.7868pt>
-File: lxc-arch.png Graphic file (type png)
- <use lxc-arch.png>
-Package pdftex.def Info: lxc-arch.png used on input line 157.
-(pdftex.def)             Requested size: 369.88582pt x 346.04982pt.
- [14]
-[15 <./lxc-arch.png>]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 178.
-
+] (./thesis.lof
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 18.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 178.
- [16] [17]
-[18] <cgroup_example.png, id=301, 1193.45876pt x 834.11626pt>
-File: cgroup_example.png Graphic file (type png)
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 18.
+ [6
 
-<use cgroup_example.png>
-Package pdftex.def Info: cgroup_example.png used on input line 286.
-(pdftex.def)             Requested size: 433.62001pt x 303.05623pt.
- <xen-arch.png, id=309, 650.43pt x 893.3375pt>
+])
+\tf@lof=\write7
+\openout7 = `thesis.lof'.
+
+ [7]
+(./introduction.tex
+Chapter 1.
+[1
+
+
+
+] [2]) [3] (./relatedWork.tex
+Chapter 2.
+[4
+
+
+] [5]) [6] (./virtualization.tex
+Chapter 3.
+<full-virt.png, id=410, 873.2625pt x 715.67375pt>
+File: full-virt.png Graphic file (type png)
+ <use full-virt.png>
+Package pdftex.def Info: full-virt.png used on input line 24.
+(pdftex.def)             Requested size: 341.43306pt x 279.81053pt.
+ [7
+
+
+]
+[8 <./full-virt.png>] <kvm-arch.png, id=424, 629.35126pt x 806.01125pt>
+File: kvm-arch.png Graphic file (type png)
+
+<use kvm-arch.png>
+Package pdftex.def Info: kvm-arch.png used on input line 36.
+(pdftex.def)             Requested size: 341.43306pt x 437.26888pt.
+ [9 <./kvm-arch.png>]
+<kvm-cpu.png, id=429, 617.30624pt x 639.38875pt>
+File: kvm-cpu.png Graphic file (type png)
+ <use kvm-cpu.png>
+Package pdftex.def Info: kvm-cpu.png used on input line 51.
+(pdftex.def)             Requested size: 208.13574pt x 215.57463pt.
+ [10 <./kvm-cpu.png>] <kvm-emulated.png, id=443, 602.25pt x 649.42625pt>
+File: kvm-emulated.png Graphic file (type png)
+
+<use kvm-emulated.png>
+Package pdftex.def Info: kvm-emulated.png used on input line 68.
+(pdftex.def)             Requested size: 151.76964pt x 163.6543pt.
+ <kvm-para.png, id=444, 359.4228pt x 393.6306pt>
+File: kvm-para.png Graphic file (type png)
+
+<use kvm-para.png>
+Package pdftex.def Info: kvm-para.png used on input line 76.
+(pdftex.def)             Requested size: 151.76964pt x 166.21265pt.
+ <kvm-internal.png, id=446, 359.4228pt x 393.6306pt>
+File: kvm-internal.png Graphic file (type png)
+
+<use kvm-internal.png>
+Package pdftex.def Info: kvm-internal.png used on input line 84.
+(pdftex.def)             Requested size: 151.76964pt x 166.21265pt.
+ <kvm-direct.png, id=447, 359.4228pt x 393.6306pt>
+File: kvm-direct.png Graphic file (type png)
+
+<use kvm-direct.png>
+Package pdftex.def Info: kvm-direct.png used on input line 90.
+(pdftex.def)             Requested size: 151.76964pt x 166.21265pt.
+ <kvm-direct-sriov.png, id=448, 359.4228pt x 393.6306pt>
+File: kvm-direct-sriov.png Graphic file (type png)
+
+<use kvm-direct-sriov.png>
+Package pdftex.def Info: kvm-direct-sriov.png used on input line 96.
+(pdftex.def)             Requested size: 182.1196pt x 199.45158pt.
+
+
+LaTeX Warning: Float too large for page by 16.58188pt on input line 101.
+
+[11] [12 <./kvm-emulated.png> <./kvm-para.png> <./kvm-internal.png> <./kvm-dire
+ct.png> <./kvm-direct-sriov.png>] [13]
+<lxc-arch.png, id=497, 641.39626pt x 783.92876pt>
+File: lxc-arch.png Graphic file (type png)
+ <use lxc-arch.png>
+Package pdftex.def Info: lxc-arch.png used on input line 163.
+(pdftex.def)             Requested size: 312.9803pt x 382.53754pt.
+ [14]
+[15 <./lxc-arch.png>] [16] [17]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+<cgroup-example.png, id=545, 1188.44pt x 835.12pt>
+File: cgroup-example.png Graphic file (type png)
+ <use cgroup-example.png>
+Package pdftex.def Info: cgroup-example.png used on input line 285.
+(pdftex.def)             Requested size: 433.62001pt x 304.70795pt.
+
+[18]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [19 <./cgroup-example.png>]
+<xen-arch.png, id=566, 654.445pt x 894.34125pt>
 File: xen-arch.png Graphic file (type png)
+ <use xen-arch.png>
+Package pdftex.def Info: xen-arch.png used on input line 353.
+(pdftex.def)             Requested size: 256.0748pt x 349.93799pt.
+ [20 <./xen-arch.png>]
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 362.
 
-<use xen-arch.png>
-Package pdftex.def Info: xen-arch.png used on input line 317.
-(pdftex.def)             Requested size: 284.52756pt x 390.7933pt.
- [19] [20 <./cgroup_example.png>] [21 <./xen-arch.png>]
-[22]) [23] (./thesis.bbl
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 15.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 362.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 362.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 362.
+
+[21] <ir.png, id=585, 1185.42876pt x 675.52374pt>
+File: ir.png Graphic file (type png)
+ <use ir.png>
+Package pdftex.def Info: ir.png used on input line 368.
+(pdftex.def)             Requested size: 369.88582pt x 210.78111pt.
+ [22 <./ir.png>]) [23] (./virtualization_overhead.tex
+Chapter 4.
+[24
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+
+ []
+
+[25] <1cpu.png, id=618, 701.019pt x 516.4896pt>
+File: 1cpu.png Graphic file (type png)
+ <use 1cpu.png>
+Package pdftex.def Info: 1cpu.png used on input line 66.
+(pdftex.def)             Requested size: 398.33858pt x 293.48793pt.
+ [26]
+<2cpu.png, id=632, 701.019pt x 516.4896pt>
+File: 2cpu.png Graphic file (type png)
+ <use 2cpu.png>
+Package pdftex.def Info: 2cpu.png used on input line 76.
+(pdftex.def)             Requested size: 398.33858pt x 293.48793pt.
+ [27 <./1cpu.png>]
+<4cpu.png, id=640, 701.019pt x 516.4896pt>
+File: 4cpu.png Graphic file (type png)
+ <use 4cpu.png>
+Package pdftex.def Info: 4cpu.png used on input line 85.
+(pdftex.def)             Requested size: 369.88582pt x 272.5245pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<8cpu.png, id=642, 701.019pt x 516.4896pt>
+File: 8cpu.png Graphic file (type png)
+ <use 8cpu.png>
+Package pdftex.def Info: 8cpu.png used on input line 95.
+(pdftex.def)             Requested size: 369.88582pt x 272.5245pt.
+ [28 <./2cpu.png>]
+[29 <./4cpu.png> <./8cpu.png>] [30] <mem1.png, id=661, 722.7pt x 536.2434pt>
+File: mem1.png Graphic file (type png)
+
+<use mem1.png>
+Package pdftex.def Info: mem1.png used on input line 113.
+(pdftex.def)             Requested size: 369.88582pt x 274.45421pt.
+ [31 <./mem1.png>] <mem2.png, id=671, 724.1454pt x 398.4486pt>
+File: mem2.png Graphic file (type png)
+
+<use mem2.png>
+Package pdftex.def Info: mem2.png used on input line 122.
+(pdftex.def)             Requested size: 369.88582pt x 203.52832pt.
+ <mem3.png, id=673, 724.1454pt x 398.4486pt>
+File: mem3.png Graphic file (type png)
+ <use mem3.png>
+Package pdftex.def Info: mem3.png used on input line 132.
+(pdftex.def)             Requested size: 369.88582pt x 203.52832pt.
+
+[32 <./mem2.png>] [33 <./mem3.png>] <net1.png, id=688, 720.291pt x 396.5214pt>
+File: net1.png Graphic file (type png)
+
+<use net1.png>
+Package pdftex.def Info: net1.png used on input line 146.
+(pdftex.def)             Requested size: 369.88582pt x 203.62088pt.
+ [34 <./net1.png>]
+
+LaTeX Warning: Citation `aio' on page 35 undefined on input line 158.
+
+
+LaTeX Warning: Citation `dd' on page 35 undefined on input line 163.
+
+<diskseq.png, id=701, 724.1454pt x 398.4486pt>
+File: diskseq.png Graphic file (type png)
+ <use diskseq.png>
+Package pdftex.def Info: diskseq.png used on input line 167.
+(pdftex.def)             Requested size: 369.88582pt x 203.52832pt.
+ [35]
+<diskrand.png, id=712, 726.0726pt x 399.894pt>
+File: diskrand.png Graphic file (type png)
+ <use diskrand.png>
+Package pdftex.def Info: diskrand.png used on input line 176.
+(pdftex.def)             Requested size: 369.88582pt x 203.71745pt.
+ [36 <./diskseq.png> <./diskrand.png>] <diskcopy.png, id=721, 701.019pt x 516.4
+896pt>
+File: diskcopy.png Graphic file (type png)
+
+<use diskcopy.png>
+Package pdftex.def Info: diskcopy.png used on input line 185.
+(pdftex.def)             Requested size: 369.88582pt x 272.5245pt.
+ [37 <./diskcopy.png>]
+<linpack.png, id=731, 726.0726pt x 399.894pt>
+File: linpack.png Graphic file (type png)
+ <use linpack.png>
+Package pdftex.def Info: linpack.png used on input line 200.
+(pdftex.def)             Requested size: 426.79134pt x 235.06284pt.
+
+<stream.png, id=733, 724.1454pt x 398.4486pt>
+File: stream.png Graphic file (type png)
+ <use stream.png>
+Package pdftex.def Info: stream.png used on input line 212.
+(pdftex.def)             Requested size: 426.79134pt x 234.83943pt.
+ [38 <./linpack.png>] <iozone_read.png, id=743, 724.1454pt x 398.4486pt>
+File: iozone_read.png Graphic file (type png)
+ <use iozone_read.png>
+Package pdftex.def Info: iozone_read.png used on input line 225.
+(pdftex.def)             Requested size: 429.28618pt x 236.2074pt.
+
+<iozone_write.png, id=744, 724.1454pt x 398.4486pt>
+File: iozone_write.png Graphic file (type png)
+ <use iozone_write.png>
+Package pdftex.def Info: iozone_write.png used on input line 231.
+(pdftex.def)             Requested size: 346.89732pt x 190.87619pt.
+
+[39 <./stream.png>] [40 <./iozone_read.png> <./iozone_write.png>]
+Overfull \hbox (10.97621pt too wide) in paragraph at lines 241--241
+[]\OT1/cmr/bx/n/14.4 Performance Com-par-i-son - Workload-Specific Bench-marks 
+
+ []
+
+<nginx.png, id=758, 724.1454pt x 398.4486pt>
+File: nginx.png Graphic file (type png)
+ <use nginx.png>
+Package pdftex.def Info: nginx.png used on input line 247.
+(pdftex.def)             Requested size: 426.79134pt x 234.83943pt.
+ [41 <./nginx.png>] <pgbench.png, id=765, 724.1454pt x 398.4486pt>
+File: pgbench.png Graphic file (type png)
+ <use pgbench.png>
+Package pdftex.def Info: pgbench.png used on input line 259.
+(pdftex.def)             Requested size: 426.79134pt x 234.83943pt.
+
+<pybench.png, id=767, 724.1454pt x 398.4486pt>
+File: pybench.png Graphic file (type png)
+ <use pybench.png>
+Package pdftex.def Info: pybench.png used on input line 271.
+(pdftex.def)             Requested size: 426.79134pt x 234.83943pt.
+ [42 <./pgbench.png>] <phpbench.png, id=775, 724.1454pt x 398.4486pt>
+File: phpbench.png Graphic file (type png)
+ <use phpbench.png>
+Package pdftex.def Info: phpbench.png used on input line 282.
+(pdftex.def)             Requested size: 426.79134pt x 234.83943pt.
+
+[43 <./pybench.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 289.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 289.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 289.
+
+[44 <./phpbench.png>] <mongoinsert.png, id=787, 724.1454pt x 398.4486pt>
+File: mongoinsert.png Graphic file (type png)
+
+<use mongoinsert.png>
+Package pdftex.def Info: mongoinsert.png used on input line 301.
+(pdftex.def)             Requested size: 426.79134pt x 234.83943pt.
+ <mongofind.png, id=789, 724.1454pt x 398.4486pt>
+File: mongofind.png Graphic file (type png)
+
+<use mongofind.png>
+Package pdftex.def Info: mongofind.png used on input line 312.
+(pdftex.def)             Requested size: 426.79134pt x 234.83943pt.
+ [45 <./mongoinsert.png>]
+<mongoupdate.png, id=797, 724.1454pt x 398.4486pt>
+File: mongoupdate.png Graphic file (type png)
+ <use mongoupdate.png>
+Package pdftex.def Info: mongoupdate.png used on input line 324.
+(pdftex.def)             Requested size: 426.79134pt x 234.83943pt.
+
+[46 <./mongofind.png>] <rabbitpub.png, id=804, 724.1454pt x 398.4486pt>
+File: rabbitpub.png Graphic file (type png)
+
+<use rabbitpub.png>
+Package pdftex.def Info: rabbitpub.png used on input line 341.
+(pdftex.def)             Requested size: 426.79134pt x 234.83943pt.
+ [47 <./mongoupdate.png>]
+<rabbitsub.png, id=811, 724.1454pt x 398.4486pt>
+File: rabbitsub.png Graphic file (type png)
+ <use rabbitsub.png>
+Package pdftex.def Info: rabbitsub.png used on input line 352.
+(pdftex.def)             Requested size: 426.79134pt x 234.83943pt.
+ [48 <./rabbitpub.png>] <3storeins.png, id=819, 724.1454pt x 398.4486pt>
+File: 3storeins.png Graphic file (type png)
+
+<use 3storeins.png>
+Package pdftex.def Info: 3storeins.png used on input line 368.
+(pdftex.def)             Requested size: 426.79134pt x 234.83943pt.
+ [49 <./rabbitsub.png>]
+<3storeret.png, id=826, 724.1454pt x 398.4486pt>
+File: 3storeret.png Graphic file (type png)
+ <use 3storeret.png>
+Package pdftex.def Info: 3storeret.png used on input line 379.
+(pdftex.def)             Requested size: 426.79134pt x 234.83943pt.
+ [50 <./3storeins.png>] <obsw.png, id=833, 724.1454pt x 398.4486pt>
+File: obsw.png Graphic file (type png)
+ <use obsw.png>
+Package pdftex.def Info: obsw.png used on input line 396.
+(pdftex.def)             Requested size: 426.79134pt x 234.83943pt.
+
+[51 <./3storeret.png>]) [52 <./obsw.png>] (./operational.tex
+Chapter 5.
+[53
+
+
+] [54]
+Overfull \hbox (2.31853pt too wide) in paragraph at lines 52--60
+ [] 
+ []
+
+[55]
+Overfull \hbox (1.6058pt too wide) in paragraph at lines 103--103
+[]|\OT1/cmr/bx/n/10 Feature/constraint| 
+ []
+
+
+Overfull \hbox (1.6058pt too wide) in paragraph at lines 143--143
+[]|\OT1/cmr/bx/n/10 Feature/constraint| 
+ []
+
+[56] [57]) [58] (./resourceentitlement.tex
+Chapter 6.
+<resourceutil.png, id=883, 473.1276pt x 330.5148pt>
+File: resourceutil.png Graphic file (type png)
+ <use resourceutil.png>
+Package pdftex.def Info: resourceutil.png used on input line 8.
+(pdftex.def)             Requested size: 369.88582pt x 258.39055pt.
+
+[59
+
+
+] <cpustress.png, id=889, 720.291pt x 396.5214pt>
+File: cpustress.png Graphic file (type png)
+ <use cpustress.png>
+Package pdftex.def Info: cpustress.png used on input line 20.
+(pdftex.def)             Requested size: 429.28618pt x 236.3234pt.
+
+<cpustressp.png, id=890, 724.1454pt x 398.4486pt>
+File: cpustressp.png Graphic file (type png)
+ <use cpustressp.png>
+Package pdftex.def Info: cpustressp.png used on input line 28.
+(pdftex.def)             Requested size: 346.89732pt x 190.87619pt.
+ [60 <./resourceutil.png>] [61 <./cpustress.png> <./cpustressp.png>]
+<memstress.png, id=907, 649.4664pt x 324.2514pt>
+File: memstress.png Graphic file (type png)
+ <use memstress.png>
+Package pdftex.def Info: memstress.png used on input line 40.
+(pdftex.def)             Requested size: 429.28618pt x 214.33313pt.
+
+<memstressp.png, id=908, 667.293pt x 281.3712pt>
+File: memstressp.png Graphic file (type png)
+ <use memstressp.png>
+Package pdftex.def Info: memstressp.png used on input line 48.
+(pdftex.def)             Requested size: 346.89732pt x 146.27094pt.
+ [62 <./memstress.png> <./memstressp.png>]
+<netstress.png, id=919, 686.565pt x 314.1336pt>
+File: netstress.png Graphic file (type png)
+ <use netstress.png>
+Package pdftex.def Info: netstress.png used on input line 60.
+(pdftex.def)             Requested size: 429.28618pt x 196.41449pt.
+
+<netstressp.png, id=920, 664.884pt x 283.2984pt>
+File: netstressp.png Graphic file (type png)
+ <use netstressp.png>
+Package pdftex.def Info: netstressp.png used on input line 68.
+(pdftex.def)             Requested size: 346.89732pt x 147.8088pt.
+ [63 <./netstress.png> <./netstressp.png>]
+<diskstress.png, id=930, 693.3102pt x 317.0244pt>
+File: diskstress.png Graphic file (type png)
+ <use diskstress.png>
+Package pdftex.def Info: diskstress.png used on input line 81.
+(pdftex.def)             Requested size: 429.28618pt x 196.30154pt.
+
+<diskstressp.png, id=931, 668.7384pt x 282.3348pt>
+File: diskstressp.png Graphic file (type png)
+ <use diskstressp.png>
+Package pdftex.def Info: diskstressp.png used on input line 89.
+(pdftex.def)             Requested size: 346.89732pt x 146.45735pt.
+
+[64 <./diskstress.png> <./diskstressp.png>]
+<numa.png, id=945, 1198.4775pt x 580.1675pt>
+File: numa.png Graphic file (type png)
+ <use numa.png>
+Package pdftex.def Info: numa.png used on input line 150.
+(pdftex.def)             Requested size: 369.88582pt x 179.05331pt.
+ [65]
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+[66 <./numa.png>]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 169.
+
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
+) [67]) [68]
+(./conclusions.tex
+Chapter 7.
+[69
+
+
+]) [70] (./thesis.bbl
+Underfull \hbox (badness 2469) in paragraph at lines 17--22
+[]\OT1/cmr/m/n/10 AMD.  Amd-v vir-tu-al-iza-tion ex-ten-sions to x86.  [][]$\OT
+1/pcr/m/n/10 http : / / developer . amd . com /
+ []
+
 Missing character: There is no ‚ in font cmti10!
 Missing character: There is no Ä in font cmti10!
 Missing character: There is no ô in font cmti10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--47
+Underfull \hbox (badness 10000) in paragraph at lines 55--59
 []\OT1/cmr/m/n/10 Davide Brini.  Coreos.  [][]$\OT1/pcr/m/n/10 http : / / backr
 eference . org / 2010 / 03 / 26 /
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 88--94
+Underfull \hbox (badness 1009) in paragraph at lines 61--66
+\OT1/pcr/m/n/10 / / www . dsm . fordham . edu / cgi-[]bin / man-[]cgi . pl ? to
+pic = lscpu&ampsect = 1$[][]\OT1/cmr/m/n/10 , Oc-to-
+ []
+
+[71
+
+
+]
+Underfull \hbox (badness 1270) in paragraph at lines 107--113
 []\OT1/cmr/m/n/10 Glauber Costa.  Re-source iso-la-tion: The fail-ure of op-er-
 at-ing sys-tems and how we
  []
 
 
-Underfull \hbox (badness 4279) in paragraph at lines 88--94
+Underfull \hbox (badness 3039) in paragraph at lines 107--113
 \OT1/cmr/m/n/10 can fix it - glauber costa.  [][]$\OT1/pcr/m/n/10 http : / / li
 nuxconeurope2012 . sched . org / event /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--94
+Underfull \hbox (badness 10000) in paragraph at lines 107--113
 \OT1/pcr/m/n/10 bf1a2818e908e3a534164b52d5b85bf1 ? iframe = no&w = 900&sidebar 
-= yes&bg =
+= yes&bg = no #
  []
 
-[24
+
+Underfull \hbox (badness 1117) in paragraph at lines 176--180
+[]\OT1/cmr/m/n/10 The Apache Soft-ware Foun-da-tion.  Apache jena-tdb.  [][]$\O
+T1/pcr/m/n/10 http : / / jena . apache . org /
+ []
+
+[72]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--198
+[]\OT1/cmr/m/n/10 Jacques Gli-nas.  Linux-vserver.  [][]$\OT1/pcr/m/n/10 http :
+ / / linux-[]vserver . org / Welcome _ to _
+ []
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 125--130
+Underfull \hbox (badness 10000) in paragraph at lines 207--212
 \OT1/pcr/m/n/10 / / access . redhat . com / site / documentation / en-[]US / Re
 d _ Hat _ Enterprise _
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 125--130
+Underfull \hbox (badness 10000) in paragraph at lines 207--212
 \OT1/pcr/m/n/10 Linux / 6 / html / Resource _ Management _ Guide / ch01 . html$
-[][]\OT1/cmr/m/n/10 , Oc-to-ber 2013 (Last Ac-
+[][]\OT1/cmr/m/n/10 , Oc-to-ber 2013 (Last
  []
 
 
-Underfull \hbox (badness 7326) in paragraph at lines 132--136
+Underfull \hbox (badness 5847) in paragraph at lines 214--218
 []\OT1/cmr/m/n/10 Red Hat.  Red hat en-ter-prise linux.  [][]$\OT1/pcr/m/n/10 h
 ttp : / / www . redhat . com / products /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--143
-\OT1/pcr/m/n/10 12 / 16 / building-[]super-[]scalable-[]systems-[]blade-[]runne
-r-[]meets-[]autonomic .
+Overfull \hbox (27.43561pt too wide) in paragraph at lines 225--230
+\OT1/pcr/m/n/10 2009 / 12 / 16 / building-[]super-[]scalable-[]systems-[]blade-
+[]runner-[]meets-[]autonomic .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--150
+Underfull \hbox (badness 8075) in paragraph at lines 248--253
 []\OT1/cmr/m/n/10 Intel.  Hardware-assisted vir-tu-al-iza-tion tech-nol-ogy.  [
 ][]$\OT1/pcr/m/n/10 http : / / www . intel . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--150
+Underfull \hbox (badness 10000) in paragraph at lines 248--253
 \OT1/pcr/m/n/10 content / www / us / en / virtualization / virtualization-[]tec
 hnology /
  []
 
 
-Underfull \hbox (badness 4872) in paragraph at lines 145--150
+Underfull \hbox (badness 2564) in paragraph at lines 248--253
 \OT1/pcr/m/n/10 hardware-[]assist-[]virtualization-[]technology . html$[][]\OT1
 /cmr/m/n/10 , Oc-to-ber 2013 (Last Ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--157
+Underfull \hbox (badness 10000) in paragraph at lines 255--260
 []\OT1/cmr/m/n/10 Intel.  In-tel sr-iov primer.  [][]$\OT1/pcr/m/n/10 http : / 
 / www . intel . com / content / dam / doc /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--157
+Underfull \hbox (badness 10000) in paragraph at lines 255--260
 \OT1/pcr/m/n/10 application-[]note / pci-[]sig-[]sr-[]iov-[]primer-[]sr-[]iov-[
 ]technology-[]paper . pdf$[][]\OT1/cmr/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 5741) in paragraph at lines 159--164
+Underfull \hbox (badness 4765) in paragraph at lines 262--267
 []\OT1/cmr/m/n/10 Intel.  In-tel vir-tu-al-iza-tion tech-nol-ogy for di-rected 
 i/o: Spec.  [][]$\OT1/pcr/m/n/10 http : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--164
+Underfull \hbox (badness 10000) in paragraph at lines 262--267
 \OT1/pcr/m/n/10 intel . com / content / www / us / en / intelligent-[]systems /
  intel-[]technology /
  []
 
-
-Underfull \hbox (badness 1509) in paragraph at lines 176--180
-[]\OT1/cmr/m/n/10 Michael Ker-risk.  Names-paces - overview.  [][]$\OT1/pcr/m/n
-/10 https : / / lwn . net / Articles / 531114 /
- []
-
-[25]
-Underfull \hbox (badness 1226) in paragraph at lines 227--231
-[]\OT1/cmr/m/n/10 Linux.  Overview of non-uniform mem-ory ar-chi-tec-ture.  [][
-]$\OT1/pcr/m/n/10 http : / / man7 . org / linux /
+[73]
+Underfull \hbox (badness 10000) in paragraph at lines 306--311
+[][]$\OT1/pcr/m/n/10 ftp : / / public . dhe . ibm . com / linux / pdfs / KVM _ 
+Virtualized _ IO _ Performance _
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 233--237
+Underfull \hbox (badness 1383) in paragraph at lines 352--357
+[]\OT1/cmr/m/n/10 Linux.  Linux ker-nel vir-tu-al-iza-tion sup-port with kvm.  
+[][]$\OT1/pcr/m/n/10 http : / / kernelnewbies .
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 352--357
+\OT1/pcr/m/n/10 org / Linux _ 2 _ 6 _ 20 # head-[]bca4fe7ffe454321118a470387c2b
+e543ee51754$[][]\OT1/cmr/m/n/10 , Oc-to-
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 365--369
 []\OT1/cmr/m/n/10 Linux.  Posix mes-sage queues.  [][]$\OT1/pcr/m/n/10 http : /
  / man7 . org / linux / man-[]pages / man7 / mq _
  []
 
+[74]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no © in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--291
-\OT1/pcr/m/n/10 site / documentation / en-[]US / Red _ Hat _ Enterprise _ Virtu
-alization / 3 . 0 / html /
+Underfull \hbox (badness 1389) in paragraph at lines 484--489
+[]\OT1/cmr/m/n/10 Inc Red Hat.  Au-to-matic vir-tual ma-chine mi-gra-tion.  [][
+]$\OT1/pcr/m/n/10 https : / / access . redhat .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--291
-\OT1/pcr/m/n/10 Administration _ Guide / Tasks _ RHEV _ Migration _ Automatic _
- Virtual _ Machine _
+Underfull \hbox (badness 10000) in paragraph at lines 484--489
+\OT1/pcr/m/n/10 com / site / documentation / en-[]US / Red _ Hat _ Enterprise _
+ Virtualization / 3 .
  []
 
-[26]
-Underfull \hbox (badness 1742) in paragraph at lines 300--305
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--489
+\OT1/pcr/m/n/10 0 / html / Administration _ Guide / Tasks _ RHEV _ Migration _ 
+Automatic _ Virtual _
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 503--508
 []\OT1/cmr/m/n/10 Rami Rosen.  Names-paces and cgroups.  [][]$\OT1/pcr/m/n/10 h
 ttp : / / media . wix . com / ugd / /295986 _
  []
 
-) [27]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
+[75]) [76]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8E38633ABF23A00EAA35BD82EE1EF42A;672.
+(rerunfilecheck)             Checksum: 5348F8C83B6E4E308EBE56673A1692BE;2223.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
  ) 
 Here is how much of TeX's memory you used:
- 9990 strings out of 493315
- 148112 string characters out of 6137904
- 252286 words of memory out of 5000000
- 13161 multiletter control sequences out of 15000+600000
- 10473 words of font info for 40 fonts, out of 8000000 for 9000
+ 10574 strings out of 493315
+ 155788 string characters out of 6137904
+ 261455 words of memory out of 5000000
+ 13522 multiletter control sequences out of 15000+600000
+ 11643 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,11n,45p,1944b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,14n,45p,3313b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-
-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on thesis.pdf (29 pages, 1763817 bytes).
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on thesis.pdf (83 pages, 5658596 bytes).
 PDF statistics:
- 503 PDF objects out of 1000 (max. 8388607)
- 436 compressed objects within 5 object streams
- 123 named destinations out of 1000 (max. 500000)
- 152 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1265 PDF objects out of 1440 (max. 8388607)
+ 1066 compressed objects within 11 object streams
+ 281 named destinations out of 1000 (max. 500000)
+ 510 words of extra memory for PDF output out of 10000 (max. 10000000)
 

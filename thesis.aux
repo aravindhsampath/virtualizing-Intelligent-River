@@ -18,6 +18,8 @@
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \@writefile{toc}{\contentsline {chapter}{Title Page}{i}{section*.1}}
 \@writefile{toc}{\contentsline {chapter}{Abstract}{ii}{section*.2}}
+\@writefile{toc}{\contentsline {chapter}{List of Tables}{v}{section*.4}}
+\@writefile{toc}{\contentsline {chapter}{List of Figures}{vi}{section*.5}}
 \citation{unlimited_scale}
 \citation{5346711}
 \citation{lxc}
@@ -26,79 +28,99 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
+\citation{ir}
+\citation{kvm}
+\citation{xen}
+\citation{lxc}
+\citation{younge2011analysis}
+\citation{hpcc}
+\citation{openvz}
 \@writefile{toc}{\contentsline {section}{\numberline {1.1}Motivation}{2}{section.1.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.2}Contributions}{3}{section.1.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.3}Thesis Organization}{4}{section.1.3}}
+\citation{zvm}
+\citation{ec2}
+\citation{cloudstack}
+\citation{openstack}
+\citation{heroku}
+\citation{openshift}
 \citation{younge2011analysis}
+\citation{virtualbox}
 \citation{futuregrid}
+\citation{hpcc}
+\citation{spec}
 \citation{synthetic}
+\citation{openvz}
 \citation{container1}
-\citation{container2}
+\citation{vserver}
 \citation{fourcomp}
+\citation{uml}
+\citation{vmware}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Related Work}{4}{chapter.2}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
 \citation{sdn1}
-\citation{sdn2}
 \citation{openvswitch}
 \citation{mesos}
 \citation{hadoop}
 \citation{mpi}
 \citation{peer}
-\@writefile{toc}{\contentsline {chapter}{\numberline {2}Related Work}{5}{chapter.2}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
+\citation{coreos}
+\citation{docker}
 \citation{cacheaware}
 \citation{kvmaffinity}
-\citation{coreos}
-\citation{kvm_linux_kernel}
-\citation{qemu}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Virtualization Technologies}{7}{chapter.3}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Background}{7}{chapter.3}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Kernel based Virtual Machines (KVM)}{7}{section.3.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Block Diagram of a full-virtualization system\relax }}{8}{figure.caption.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Virtualization Technologies}{7}{section.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Kernel-based Virtual Machines (KVM)}{7}{subsection.3.1.1}}
+\citation{kvm_linux_kernel}
+\citation{qemu}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces A Full-Virtualization System\relax }}{8}{figure.caption.6}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{img_full_virt}{{3.1}{8}{Block Diagram of a full-virtualization system\relax }{figure.caption.4}{}}
+\newlabel{img_full_virt}{{3.1}{8}{A Full-Virtualization System\relax }{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces KVM - Architecture\relax }}{9}{figure.caption.7}}
+\newlabel{img_kvm_arch}{{3.2}{9}{KVM - Architecture\relax }{figure.caption.7}{}}
 \citation{intelvtx}
 \citation{amdv}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces KVM - Architecture\relax }}{9}{figure.caption.5}}
-\newlabel{img_kvm_arch}{{3.2}{9}{KVM - Architecture\relax }{figure.caption.5}{}}
 \citation{numa}
 \citation{huge_pages}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces KVM - Virtual CPU management\relax }}{10}{figure.caption.6}}
-\newlabel{img_kvm_thread}{{3.3}{10}{KVM - Virtual CPU management\relax }{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces KVM - Virtual CPU Management\relax }}{10}{figure.caption.8}}
+\newlabel{img_kvm_thread}{{3.3}{10}{KVM - Virtual CPU Management\relax }{figure.caption.8}{}}
 \citation{Tap_devices}
 \citation{intelvtd}
 \citation{amd-iommu}
-\newlabel{fig:kvm-emulated}{{3.4a}{12}{Emulated Networking devices\relax }{figure.caption.7}{}}
-\newlabel{sub@fig:kvm-emulated}{{a}{12}{Emulated Networking devices\relax }{figure.caption.7}{}}
-\newlabel{fig:kvm-para}{{3.4b}{12}{Para-Virtualized Networking\relax }{figure.caption.7}{}}
-\newlabel{sub@fig:kvm-para}{{b}{12}{Para-Virtualized Networking\relax }{figure.caption.7}{}}
-\newlabel{fig:kvm-internal}{{3.4c}{12}{Public and Private Networking\relax }{figure.caption.7}{}}
-\newlabel{sub@fig:kvm-internal}{{c}{12}{Public and Private Networking\relax }{figure.caption.7}{}}
-\newlabel{fig:kvm-direct}{{3.4d}{12}{Direct Device Assignment\relax }{figure.caption.7}{}}
-\newlabel{sub@fig:kvm-direct}{{d}{12}{Direct Device Assignment\relax }{figure.caption.7}{}}
-\newlabel{fig:kvm-direct-sriov}{{3.4e}{12}{Direct Device Assignment with SR-IOV\relax }{figure.caption.7}{}}
-\newlabel{sub@fig:kvm-direct-sriov}{{e}{12}{Direct Device Assignment with SR-IOV\relax }{figure.caption.7}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Common Networking Options for KVM\relax }}{12}{figure.caption.7}}
-\newlabel{fig:kvm-networking}{{3.4}{12}{Common Networking Options for KVM\relax }{figure.caption.7}{}}
+\newlabel{fig:kvm-emulated}{{3.4a}{12}{Emulated Networking Devices\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:kvm-emulated}{{a}{12}{Emulated Networking Devices\relax }{figure.caption.9}{}}
+\newlabel{fig:kvm-para}{{3.4b}{12}{Para-Virtualized Networking\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:kvm-para}{{b}{12}{Para-Virtualized Networking\relax }{figure.caption.9}{}}
+\newlabel{fig:kvm-internal}{{3.4c}{12}{Public and Private Networking\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:kvm-internal}{{c}{12}{Public and Private Networking\relax }{figure.caption.9}{}}
+\newlabel{fig:kvm-direct}{{3.4d}{12}{Direct Device Assignment\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:kvm-direct}{{d}{12}{Direct Device Assignment\relax }{figure.caption.9}{}}
+\newlabel{fig:kvm-direct-sriov}{{3.4e}{12}{Direct Device Assignment with SR-IOV\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:kvm-direct-sriov}{{e}{12}{Direct Device Assignment with SR-IOV\relax }{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Common Networking Options for KVM\relax }}{12}{figure.caption.9}}
+\newlabel{fig:kvm-networking}{{3.4}{12}{Common Networking Options for KVM\relax }{figure.caption.9}{}}
 \citation{sr-iov_primer}
 \citation{linux_incompetent}
 \citation{jails}
 \citation{zones}
 \citation{chroot}
 \citation{openvz}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Linux Containers}{13}{section.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Linux Containers}{13}{subsection.3.1.2}}
 \citation{rhel}
 \citation{debian}
 \citation{ubuntu}
 \citation{centos}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Linux Containers - Architecture\relax }}{15}{figure.caption.10}}
+\newlabel{img_lxc_arch}{{3.5}{15}{Linux Containers - Architecture\relax }{figure.caption.10}{}}
 \citation{namespaces1}
 \citation{namespaces2}
 \citation{namespaces3}
 \citation{namespaces4}
 \citation{namespaces5}
 \citation{namespaces6}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Linux Containers - Architecture\relax }}{15}{figure.caption.8}}
-\newlabel{img_lxc_arch}{{3.5}{15}{Linux Containers - Architecture\relax }{figure.caption.8}{}}
+\citation{capabilities}
 \citation{sysv_ipc}
 \citation{posix_msg_queues}
 \citation{linux_namespaces_plan}
@@ -106,6 +128,9 @@
 \citation{cgroups}
 \citation{cgroups-rami-rosen}
 \citation{cgroups-redhat}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces cgroups - Subsystems\relax }}{18}{table.caption.11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces cgroups Example Configuration\relax }}{19}{figure.caption.12}}
+\newlabel{img_cgroup_example}{{3.6}{19}{cgroups Example Configuration\relax }{figure.caption.12}{}}
 \citation{xen_overview}
 \citation{paravirt}
 \citation{paravirt1}
@@ -113,70 +138,265 @@
 \citation{art_of_virt}
 \citation{xen_perf}
 \citation{dom0_kernels}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Xen}{19}{section.3.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Cgroups configuration example\relax }}{20}{figure.caption.9}}
-\newlabel{img_cgroup_example}{{3.6}{20}{Cgroups configuration example\relax }{figure.caption.9}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Xen - Architecture\relax }}{21}{figure.caption.10}}
-\newlabel{xen_arch}{{3.7}{21}{Xen - Architecture\relax }{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Xen}{20}{subsection.3.1.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Xen - Architecture\relax }}{20}{figure.caption.13}}
+\newlabel{xen_arch}{{3.7}{20}{Xen - Architecture\relax }{figure.caption.13}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Intelligent River\textsuperscript  {\textregistered } Middleware}{21}{section.3.2}}
+\citation{ir}
+\citation{haproxy}
+\citation{rabbitmq}
+\citation{mongodb}
+\citation{mongosharding}
+\citation{jenatdb}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Simplified Architectural Model of the Intelligent River\textsuperscript  {\textregistered } Middleware System\relax }}{22}{figure.caption.14}}
+\newlabel{fig:ir}{{3.8}{22}{Simplified Architectural Model of the Intelligent River\textsuperscript {\textregistered } Middleware System\relax }{figure.caption.14}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Virtualization Overhead}{24}{chapter.4}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Experimental Conditions}{25}{section.4.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Experimental Setup - Hardware Configuration\relax }}{25}{table.caption.15}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Experimental Setup - Software Configuration\relax }}{25}{table.caption.16}}
+\citation{unixbench}
+\citation{sysbench}
+\citation{openssl}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}CPU Overhead}{26}{section.4.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces CPU Virtualization Overhead - 1 Virtual CPU\relax }}{27}{figure.caption.17}}
+\newlabel{fig:1cpu}{{4.1}{27}{CPU Virtualization Overhead - 1 Virtual CPU\relax }{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces CPU Virtualization Overhead - 2 Virtual CPUs\relax }}{28}{figure.caption.18}}
+\newlabel{fig:2cpu}{{4.2}{28}{CPU Virtualization Overhead - 2 Virtual CPUs\relax }{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces CPU Virtualization Overhead - 4 Virtual CPUs\relax }}{29}{figure.caption.19}}
+\newlabel{fig:4cpu}{{4.3}{29}{CPU Virtualization Overhead - 4 Virtual CPUs\relax }{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces CPU Virtualization Overhead - 8 Virtual CPUs\relax }}{29}{figure.caption.20}}
+\newlabel{fig:8cpu}{{4.4}{29}{CPU Virtualization Overhead - 8 Virtual CPUs\relax }{figure.caption.20}{}}
+\citation{mbw}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Memory Overhead}{30}{section.4.3}}
+\citation{ksm}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Memory Virt. Overhead - (Virtual Machine Memory = Host Memory = 8 GB)\relax }}{31}{figure.caption.21}}
+\newlabel{fig:mem1}{{4.5}{31}{Memory Virt. Overhead - (Virtual Machine Memory = Host Memory = 8 GB)\relax }{figure.caption.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Memory Virt. Overhead (Virtual Machine Memory(5 GB) \textless Host Memory(8 GB))\relax }}{32}{figure.caption.22}}
+\newlabel{fig:mem2}{{4.6}{32}{Memory Virt. Overhead (Virtual Machine Memory(5 GB) \textless Host Memory(8 GB))\relax }{figure.caption.22}{}}
+\citation{iperf}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Memory Virt. Overhead - Virtual Machine Memory(10 GB) \textgreater Host Memory(10 GB)\relax }}{33}{figure.caption.23}}
+\newlabel{fig:mem3}{{4.7}{33}{Memory Virt. Overhead - Virtual Machine Memory(10 GB) \textgreater Host Memory(10 GB)\relax }{figure.caption.23}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Network Overhead}{33}{section.4.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Network Virtualization Overhead - Network Bandwidth\relax }}{34}{figure.caption.24}}
+\newlabel{fig:net1}{{4.8}{34}{Network Virtualization Overhead - Network Bandwidth\relax }{figure.caption.24}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Disk I/O Overhead}{34}{section.4.5}}
+\citation{bql}
+\citation{virtioblk}
+\citation{virtioscsi}
+\citation{aio}
+\citation{blkdataplane}
+\citation{sysbench}
+\citation{ioping}
+\citation{dd}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Virtualization Overhead - Sequential File I/O\relax }}{36}{figure.caption.25}}
+\newlabel{fig:diskseq}{{4.9}{36}{Virtualization Overhead - Sequential File I/O\relax }{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Virtualization Overhead - Random File I/O\relax }}{36}{figure.caption.26}}
+\newlabel{fig:diskrand}{{4.10}{36}{Virtualization Overhead - Random File I/O\relax }{figure.caption.26}{}}
+\citation{linpack}
+\citation{stream}
+\citation{iozone}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces Virtualization Overhead - Disk Copy Performance\relax }}{37}{figure.caption.27}}
+\newlabel{fig:diskcopy}{{4.11}{37}{Virtualization Overhead - Disk Copy Performance\relax }{figure.caption.27}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}Performance Comparison - System Benchmarks}{37}{section.4.6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces Computing Performance using LINPACK\relax }}{38}{figure.caption.28}}
+\newlabel{fig:linpack}{{4.12}{38}{Computing Performance using LINPACK\relax }{figure.caption.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces Memory Performance using STREAM\relax }}{39}{figure.caption.29}}
+\newlabel{fig:stream}{{4.13}{39}{Memory Performance using STREAM\relax }{figure.caption.29}{}}
+\newlabel{fig:iozoneread}{{4.14a}{40}{Read Performance\relax }{figure.caption.30}{}}
+\newlabel{sub@fig:iozoneread}{{a}{40}{Read Performance\relax }{figure.caption.30}{}}
+\newlabel{fig:iozonewrite}{{4.14b}{40}{Write Performance\relax }{figure.caption.30}{}}
+\newlabel{sub@fig:iozonewrite}{{b}{40}{Write Performance\relax }{figure.caption.30}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces Filesystem Performance using IOZONE\relax }}{40}{figure.caption.30}}
+\newlabel{fig:iozone}{{4.14}{40}{Filesystem Performance using IOZONE\relax }{figure.caption.30}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.7}Performance Comparison - Workload-Specific Benchmarks}{41}{section.4.7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces Nginx Web Server Performance\relax }}{41}{figure.caption.31}}
+\newlabel{fig:nginx}{{4.15}{41}{Nginx Web Server Performance\relax }{figure.caption.31}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.16}{\ignorespaces PostgreSQL Database Server Performance\relax }}{42}{figure.caption.32}}
+\newlabel{fig:pgbench}{{4.16}{42}{PostgreSQL Database Server Performance\relax }{figure.caption.32}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.17}{\ignorespaces Python Application Performance\relax }}{43}{figure.caption.33}}
+\newlabel{fig:pybench}{{4.17}{43}{Python Application Performance\relax }{figure.caption.33}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.18}{\ignorespaces PHP Application Performance\relax }}{44}{figure.caption.34}}
+\newlabel{fig:phpbench}{{4.18}{44}{PHP Application Performance\relax }{figure.caption.34}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.8}Performance Comparison - Intelligent River\textsuperscript  {\textregistered } Middleware}{44}{section.4.8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.1}Virtualization Performance - MongoDB}{45}{subsection.4.8.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.19}{\ignorespaces MongoDB Insert Performance\relax }}{45}{figure.caption.35}}
+\newlabel{fig:mongoinsert}{{4.19}{45}{MongoDB Insert Performance\relax }{figure.caption.35}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.20}{\ignorespaces MongoDB Find Performance\relax }}{46}{figure.caption.36}}
+\newlabel{fig:mongofind}{{4.20}{46}{MongoDB Find Performance\relax }{figure.caption.36}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.21}{\ignorespaces MongoDB Set Performance\relax }}{47}{figure.caption.37}}
+\newlabel{fig:mongoupdate}{{4.21}{47}{MongoDB Set Performance\relax }{figure.caption.37}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.2}Virtualization Performance - RabbitMQ}{47}{subsection.4.8.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.22}{\ignorespaces RabbitMQ Publish Performance\relax }}{48}{figure.caption.38}}
+\newlabel{fig:rabbitpub}{{4.22}{48}{RabbitMQ Publish Performance\relax }{figure.caption.38}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.23}{\ignorespaces RabbitMQ Subscription Performance\relax }}{49}{figure.caption.39}}
+\newlabel{fig:rabbitsub}{{4.23}{49}{RabbitMQ Subscription Performance\relax }{figure.caption.39}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.3}Virtualization Performance - Triplestore}{49}{subsection.4.8.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.24}{\ignorespaces Triplestore Performance - Storing Observations\relax }}{50}{figure.caption.40}}
+\newlabel{fig:3storeins}{{4.24}{50}{Triplestore Performance - Storing Observations\relax }{figure.caption.40}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.25}{\ignorespaces Triplestore Performance - Retrieving Observations\relax }}{51}{figure.caption.41}}
+\newlabel{fig:3storeret}{{4.25}{51}{Triplestore Performance - Retrieving Observations\relax }{figure.caption.41}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.4}Virtualization Performance - Observation Workers}{51}{subsection.4.8.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.26}{\ignorespaces Observation Worker Performance \relax }}{52}{figure.caption.42}}
+\newlabel{fig:obsw}{{4.26}{52}{Observation Worker Performance \relax }{figure.caption.42}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Operational Flexibility}{53}{chapter.5}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\citation{kickstart}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Operational Metrics}{54}{section.5.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Operational Flexibility - Provisioning a VM and installing Ubuntu server\relax }}{54}{table.caption.43}}
+\newlabel{table:provision}{{5.1}{54}{Operational Flexibility - Provisioning a VM and installing Ubuntu server\relax }{table.caption.43}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Operational Flexibility - Booting and Rebooting a VM \relax }}{55}{table.caption.44}}
+\newlabel{table:boot}{{5.2}{55}{Operational Flexibility - Booting and Rebooting a VM \relax }{table.caption.44}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.3}{\ignorespaces Operational Flexibility - Cloning a VM from disk image\relax }}{55}{table.caption.45}}
+\newlabel{table:cloning}{{5.3}{55}{Operational Flexibility - Cloning a VM from disk image\relax }{table.caption.45}{}}
+\citation{criu}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Operational features and constraints}{56}{section.5.2}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.4}{\ignorespaces Operational Flexibility - Features And Constraints\relax }}{57}{table.caption.46}}
+\newlabel{table:features}{{5.4}{57}{Operational Flexibility - Features And Constraints\relax }{table.caption.46}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.5}{\ignorespaces Operational Flexibility - Features And Constraints\relax }}{58}{table.caption.47}}
+\newlabel{table:features}{{5.5}{58}{Operational Flexibility - Features And Constraints\relax }{table.caption.47}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Resource Entitlement}{59}{chapter.6}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\citation{stress}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Virtualization - CPU Utilization Perspective\relax }}{60}{figure.caption.48}}
+\newlabel{fig:resourceutil}{{6.1}{60}{Virtualization - CPU Utilization Perspective\relax }{figure.caption.48}{}}
+\newlabel{fig:cpustress1}{{6.2a}{61}{Impact of stress on sample application w1\relax }{figure.caption.49}{}}
+\newlabel{sub@fig:cpustress1}{{a}{61}{Impact of stress on sample application w1\relax }{figure.caption.49}{}}
+\newlabel{fig:cpustressp}{{6.2b}{61}{Impact of stress in percentage increase\relax }{figure.caption.49}{}}
+\newlabel{sub@fig:cpustressp}{{b}{61}{Impact of stress in percentage increase\relax }{figure.caption.49}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces CPU Isolation Efficiency\relax }}{61}{figure.caption.49}}
+\newlabel{fig:cpuisolation}{{6.2}{61}{CPU Isolation Efficiency\relax }{figure.caption.49}{}}
+\newlabel{fig:memstress1}{{6.3a}{62}{Impact of stress on sample application w2\relax }{figure.caption.50}{}}
+\newlabel{sub@fig:memstress1}{{a}{62}{Impact of stress on sample application w2\relax }{figure.caption.50}{}}
+\newlabel{fig:memstressp}{{6.3b}{62}{Impact of stress in percentage increase\relax }{figure.caption.50}{}}
+\newlabel{sub@fig:memstressp}{{b}{62}{Impact of stress in percentage increase\relax }{figure.caption.50}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Memory Isolation Efficiency\relax }}{62}{figure.caption.50}}
+\newlabel{fig:memisolation}{{6.3}{62}{Memory Isolation Efficiency\relax }{figure.caption.50}{}}
+\newlabel{fig:netstress1}{{6.4a}{63}{Impact of stress on sample application w3\relax }{figure.caption.51}{}}
+\newlabel{sub@fig:netstress1}{{a}{63}{Impact of stress on sample application w3\relax }{figure.caption.51}{}}
+\newlabel{fig:netstressp}{{6.4b}{63}{Impact of stress in percentage increase\relax }{figure.caption.51}{}}
+\newlabel{sub@fig:netstressp}{{b}{63}{Impact of stress in percentage increase\relax }{figure.caption.51}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces Network Isolation Efficiency\relax }}{63}{figure.caption.51}}
+\newlabel{fig:netisolation}{{6.4}{63}{Network Isolation Efficiency\relax }{figure.caption.51}{}}
+\newlabel{fig:diskstress1}{{6.5a}{64}{Impact of stress on sample application w4\relax }{figure.caption.52}{}}
+\newlabel{sub@fig:diskstress1}{{a}{64}{Impact of stress on sample application w4\relax }{figure.caption.52}{}}
+\newlabel{fig:diskstressp}{{6.5b}{64}{Impact of stress in percentage increase\relax }{figure.caption.52}{}}
+\newlabel{sub@fig:diskstressp}{{b}{64}{Impact of stress in percentage increase\relax }{figure.caption.52}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces Disk I/O Isolation Efficiency\relax }}{64}{figure.caption.52}}
+\newlabel{fig:diskisolation}{{6.5}{64}{Disk I/O Isolation Efficiency\relax }{figure.caption.52}{}}
+\citation{lscpu}
+\citation{numactl}
+\citation{procaffinity}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces Hex-core CPU configuration (2 sockets, 2 node NUMA) \relax }}{66}{figure.caption.53}}
+\newlabel{fig:numa}{{6.6}{66}{Hex-core CPU configuration (2 sockets, 2 node NUMA) \relax }{figure.caption.53}{}}
+\citation{taskset}
+\citation{numactl}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion}{69}{chapter.7}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
 \bibstyle{plain}
 \bibdata{bibliography}
 \bibcite{cacheaware}{1}
-\bibcite{amdv}{2}
-\bibcite{peer}{3}
-\bibcite{art_of_virt}{4}
-\bibcite{amd-iommu}{5}
-\bibcite{linux_namespaces_plan}{6}
-\bibcite{Tap_devices}{7}
-\bibcite{ubuntu}{8}
-\bibcite{centos}{9}
-\bibcite{synthetic}{10}
-\bibcite{live_migration}{11}
-\bibcite{mpi}{12}
-\bibcite{sdn1}{13}
-\bibcite{linux_incompetent}{14}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{24}{section*.11}}
-\bibcite{debian}{15}
-\bibcite{hadoop}{16}
-\bibcite{mesos}{17}
-\bibcite{kvmaffinity}{18}
-\bibcite{key_namespace}{19}
-\bibcite{cgroups-redhat}{20}
-\bibcite{rhel}{21}
-\bibcite{unlimited_scale}{22}
-\bibcite{intelvtx}{23}
-\bibcite{sr-iov_primer}{24}
-\bibcite{intelvtd}{25}
-\bibcite{namespaces4}{26}
-\bibcite{namespaces6}{27}
-\bibcite{namespaces1}{28}
-\bibcite{namespaces2}{29}
-\bibcite{namespaces3}{30}
-\bibcite{namespaces5}{31}
-\bibcite{chroot}{32}
-\bibcite{cgroups}{33}
-\bibcite{huge_pages}{34}
-\bibcite{lxc}{35}
-\bibcite{kvm_linux_kernel}{36}
-\bibcite{numa}{37}
-\bibcite{posix_msg_queues}{38}
-\bibcite{qemu}{39}
-\bibcite{sysv_ipc}{40}
-\bibcite{zones}{41}
-\bibcite{openvz}{42}
-\bibcite{xen_perf}{43}
-\bibcite{dom0_kernels}{44}
-\bibcite{xen_overview}{45}
-\bibcite{fourcomp}{46}
-\bibcite{auto_vm_migration}{47}
-\bibcite{jails}{48}
-\bibcite{cgroups-rami-rosen}{49}
-\bibcite{sdn2}{50}
-\bibcite{5346711}{51}
-\bibcite{container2}{52}
-\bibcite{coreos}{53}
-\bibcite{openvswitch}{54}
-\bibcite{paravirt}{55}
-\bibcite{container1}{56}
-\bibcite{futuregrid}{57}
-\bibcite{younge2011analysis}{58}
-\bibcite{paravirt1}{59}
+\bibcite{ec2}{2}
+\bibcite{amdv}{3}
+\bibcite{peer}{4}
+\bibcite{art_of_virt}{5}
+\bibcite{amd-iommu}{6}
+\bibcite{bql}{7}
+\bibcite{linux_namespaces_plan}{8}
+\bibcite{Tap_devices}{9}
+\bibcite{lscpu}{10}
+\bibcite{ubuntu}{11}
+\bibcite{centos}{12}
+\bibcite{synthetic}{13}
+\bibcite{live_migration}{14}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{71}{section*.54}}
+\bibcite{mpi}{15}
+\bibcite{sdn1}{16}
+\bibcite{linux_incompetent}{17}
+\bibcite{debian}{18}
+\bibcite{uml}{19}
+\bibcite{capabilities}{20}
+\bibcite{stress}{21}
+\bibcite{unixbench}{22}
+\bibcite{linpack}{23}
+\bibcite{iperf}{24}
+\bibcite{openssl}{25}
+\bibcite{hadoop}{26}
+\bibcite{mesos}{27}
+\bibcite{cloudstack}{28}
+\bibcite{jenatdb}{29}
+\bibcite{xen}{30}
+\bibcite{kvmaffinity}{31}
+\bibcite{vserver}{32}
+\bibcite{key_namespace}{33}
+\bibcite{cgroups-redhat}{34}
+\bibcite{rhel}{35}
+\bibcite{heroku}{36}
+\bibcite{unlimited_scale}{37}
+\bibcite{mbw}{38}
+\bibcite{zvm}{39}
+\bibcite{docker}{40}
+\bibcite{intelvtx}{41}
+\bibcite{sr-iov_primer}{42}
+\bibcite{intelvtd}{43}
+\bibcite{namespaces4}{44}
+\bibcite{namespaces6}{45}
+\bibcite{namespaces1}{46}
+\bibcite{namespaces2}{47}
+\bibcite{namespaces3}{48}
+\bibcite{namespaces5}{49}
+\bibcite{ioping}{50}
+\bibcite{blkdataplane}{51}
+\bibcite{numactl}{52}
+\bibcite{sysbench}{53}
+\bibcite{hpcc}{54}
+\bibcite{chroot}{55}
+\bibcite{cgroups}{56}
+\bibcite{huge_pages}{57}
+\bibcite{lxc}{58}
+\bibcite{kvm_linux_kernel}{59}
+\bibcite{numa}{60}
+\bibcite{posix_msg_queues}{61}
+\bibcite{qemu}{62}
+\bibcite{sysv_ipc}{63}
+\bibcite{taskset}{64}
+\bibcite{rabbitmq}{65}
+\bibcite{stream}{66}
+\bibcite{mongodb}{67}
+\bibcite{mongosharding}{68}
+\bibcite{iozone}{69}
+\bibcite{ksm}{70}
+\bibcite{criu}{71}
+\bibcite{zones}{72}
+\bibcite{virtualbox}{73}
+\bibcite{openvz}{74}
+\bibcite{xen_perf}{75}
+\bibcite{openstack}{76}
+\bibcite{dom0_kernels}{77}
+\bibcite{xen_overview}{78}
+\bibcite{virtioblk}{79}
+\bibcite{virtioscsi}{80}
+\bibcite{fourcomp}{81}
+\bibcite{auto_vm_migration}{82}
+\bibcite{openshift}{83}
+\bibcite{jails}{84}
+\bibcite{cgroups-rami-rosen}{85}
+\bibcite{5346711}{86}
+\bibcite{coreos}{87}
+\bibcite{openvswitch}{88}
+\bibcite{kvm}{89}
+\bibcite{spec}{90}
+\bibcite{haproxy}{91}
+\bibcite{procaffinity}{92}
+\bibcite{kickstart}{93}
+\bibcite{vmware}{94}
+\bibcite{paravirt}{95}
+\bibcite{ir}{96}
+\bibcite{container1}{97}
+\bibcite{futuregrid}{98}
+\bibcite{younge2011analysis}{99}
+\bibcite{paravirt1}{100}

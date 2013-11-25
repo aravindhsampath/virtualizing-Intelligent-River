@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{cacheaware}
 Vishal Ahuja, Matthew Farrens, and Dipak Ghosal.
@@ -7,6 +7,11 @@ Vishal Ahuja, Matthew Farrens, and Dipak Ghosal.
 \newblock In {\em Proceedings of the eighth ACM/IEEE symposium on Architectures
   for networking and communications systems}, ANCS '12, pages 39--48, New York,
   NY, USA, 2012. ACM.
+
+\bibitem{ec2}
+Inc. Amazon Web~Services.
+\newblock Amazon elastic compute cloud.
+\newblock \url{http://aws.amazon.com/ec2/}, November 2013 (Last Accessed).
 
 \bibitem{amdv}
 AMD.
@@ -34,6 +39,13 @@ Muli Ben-Yehuda, Jon Mason, Jimi Xenidis, Orran Krieger, Leendert Van~Doorn,
 \newblock In {\em OLS’06: The 2006 Ottawa Linux Symposium}, pages 71--86.
   Citeseer, 2006.
 
+\bibitem{bql}
+Daniel~P. Berrange.
+\newblock Rfc: Death to the bqdl (big qemu driver lock).
+\newblock
+  \url{http://www.redhat.com/archives/libvir-list/2012-December/msg00747.html},
+  November 2013 (Last Accessed).
+
 \bibitem{linux_namespaces_plan}
 Eric Biederman and Linux Networx.
 \newblock Multiple instances of the global linux namespaces.
@@ -43,6 +55,13 @@ Eric Biederman and Linux Networx.
 Davide Brini.
 \newblock Coreos.
 \newblock \url{http://backreference.org/2010/03/26/tuntap-interface-tutorial/},
+  October 2013 (Last Accessed).
+
+\bibitem{lscpu}
+Heiko~Carstens Cai~Qian, Karel~Zak.
+\newblock lscpu - display information about cpu architecture.
+\newblock
+  \url{http://www.dsm.fordham.edu/cgi-bin/man-cgi.pl?topic=lscpu&ampsect=1},
   October 2013 (Last Accessed).
 
 \bibitem{ubuntu}
@@ -97,6 +116,47 @@ Debian.
 \newblock Debian - the universal operating system.
 \newblock \url{http://www.debian.org/}, October 2013 (Last Accessed).
 
+\bibitem{uml}
+Jeff Dike.
+\newblock User-mode linux.
+\newblock \url{http://user-mode-linux.sourceforge.net/}, November 2013 (Last
+  Accessed).
+
+\bibitem{capabilities}
+Linux~Kernel documentation.
+\newblock Overview of linux capabilities.
+\newblock \url{http://linux.die.net/man/7/capabilities}, November 2013 (Last
+  Accessed).
+
+\bibitem{stress}
+Linux~Kernel documentation.
+\newblock Stress - tool to impose load on and stress test systems.
+\newblock \url{http://manpages.ubuntu.com/manpages/precise/man1/stress.1.html},
+  November 2013 (Last Accessed).
+
+\bibitem{unixbench}
+Ian~Smith et~al.
+\newblock byte-unixbench, a unix benchmark suite.
+\newblock \url{https://code.google.com/p/byte-unixbench/}, November 2013 (Last
+  Accessed).
+
+\bibitem{linpack}
+Jack~Dongarra et~al.
+\newblock Linpack.
+\newblock \url{http://www.netlib.org/linpack/}, October 2013 (Last Accessed).
+
+\bibitem{iperf}
+Jon~Dugan et~al.
+\newblock iperf - tcp and udp bandwidth performance measurement tool.
+\newblock \url{https://code.google.com/p/iperf/}, November 2013 (Last
+  Accessed).
+
+\bibitem{openssl}
+Mark J.~Cox et~al.
+\newblock Openssl - cryptography and ssl/tls toolkit.
+\newblock \url{http://www.openssl.org/docs/apps/openssl.html}, November 2013
+  (Last Accessed).
+
 \bibitem{hadoop}
 Apache~Software Foundation.
 \newblock hadoop.
@@ -107,12 +167,34 @@ Apache~Software Foundation.
 \newblock Mesos.
 \newblock \url{http://mesos.apache.org/}, August 2013 (Last Accessed).
 
+\bibitem{cloudstack}
+The Apache~Software Foundation.
+\newblock Apache cloudstack - open source cloud computing.
+\newblock \url{http://cloudstack.apache.org/}, November 2013 (Last Accessed).
+
+\bibitem{jenatdb}
+The Apache~Software Foundation.
+\newblock Apache jena-tdb.
+\newblock \url{http://jena.apache.org/documentation/tdb/}, November 2013 (Last
+  Accessed).
+
+\bibitem{xen}
+The~Linux Foundation.
+\newblock The xen project.
+\newblock \url{http://www.xenproject.org/}, November 2013 (Last Accessed).
+
 \bibitem{kvmaffinity}
 Zhaoliang Guo and Qinfen Hao.
 \newblock Optimization of kvm network based on cpu affinity on multi-cores.
 \newblock In {\em Information Technology, Computer Engineering and Management
   Sciences (ICM), 2011 International Conference on}, volume~4, pages 347--351,
   2011.
+
+\bibitem{vserver}
+Jacques Gélinas.
+\newblock Linux-vserver.
+\newblock \url{http://linux-vserver.org/Welcome_to_Linux-VServer.org}, November
+  2013 (Last Accessed).
 
 \bibitem{key_namespace}
 Serge~E. Hallyn.
@@ -134,12 +216,33 @@ Red Hat.
 \newblock \url{http://www.redhat.com/products/enterprise-linux/server/},
   October 2013 (Last Accessed).
 
+\bibitem{heroku}
+Heroku.
+\newblock Heroku - cloud application platform.
+\newblock \url{http://www.heroku.com/}, November 2013 (Last Accessed).
+
 \bibitem{unlimited_scale}
 Todd Hoff.
 \newblock Building super scalable systems.
 \newblock
   \url{http://highscalability.com/blog/2009/12/16/building-super-scalable-systems-blade-runner-meets-autonomic.html},
   August 2013 (Last Accessed).
+
+\bibitem{mbw}
+Andras Horvath.
+\newblock mbw.
+\newblock \url{http://manpages.ubuntu.com/manpages/lucid/man1/mbw.1.html},
+  October 2013 (Last Accessed).
+
+\bibitem{zvm}
+IBM.
+\newblock z/vm operating system.
+\newblock \url{http://www.vm.ibm.com/}, November 2013 (Last Accessed).
+
+\bibitem{docker}
+Docker inc.
+\newblock Docker: The linux container engine.
+\newblock \url{https://www.docker.io/}, November 2013 (Last Accessed).
 
 \bibitem{intelvtx}
 Intel.
@@ -192,6 +295,35 @@ Michael Kerrisk.
 Michael Kerrisk.
 \newblock User namespaces.
 \newblock \url{https://lwn.net/Articles/532593/}, October 2013 (Last Accessed).
+
+\bibitem{ioping}
+Konstantin Khlebnikov.
+\newblock mbw.
+\newblock \url{https://code.google.com/p/ioping/}, October 2013 (Last
+  Accessed).
+
+\bibitem{blkdataplane}
+Andrew~Theurer Khoa~Huynh and Stefan Hajnoczi.
+\newblock Kvm virtualized i/o performance.
+\newblock
+  \url{ftp://public.dhe.ibm.com/linux/pdfs/KVM_Virtualized_IO_Performance_Paper.pdf},
+  November 2013 (Last Accessed).
+
+\bibitem{numactl}
+Andi Kleen.
+\newblock numactl - control numa policy for processes or shared memory.
+\newblock \url{http://linux.die.net/man/8/numactl}, October 2013 (Last
+  Accessed).
+
+\bibitem{sysbench}
+Alexey Kopytov.
+\newblock sysbench.
+\newblock \url{http://sysbench.sourceforge.net/}, October 2013 (Last Accessed).
+
+\bibitem{hpcc}
+Innovative~Computing Laboratory.
+\newblock Hpc challenge benchmark.
+\newblock \url{http://icl.cs.utk.edu/hpcc/}, November 2013 (Last Accessed).
 
 \bibitem{chroot}
 Linux.
@@ -246,12 +378,61 @@ Linux.
 \newblock \url{http://man7.org/linux/man-pages/man7/svipc.7.html}, October 2013
   (Last Accessed).
 
+\bibitem{taskset}
+Robert~M. Love.
+\newblock taskset - retrieve or set a process's cpu affinity.
+\newblock \url{http://linux.die.net/man/1/taskset}, October 2013 (Last
+  Accessed).
+
+\bibitem{rabbitmq}
+Rabbit~Technologies Ltd.
+\newblock Rabbitmq - open source message broker.
+\newblock \url{http://www.rabbitmq.com/}, November 2013 (Last Accessed).
+
+\bibitem{stream}
+John McCalpin.
+\newblock Stream.
+\newblock \url{http://www.cs.virginia.edu/stream/}, October 2013 (Last
+  Accessed).
+
+\bibitem{mongodb}
+Inc. MongoDB.
+\newblock Mongodb - an open-source document database.
+\newblock \url{http://www.mongodb.org/}, November 2013 (Last Accessed).
+
+\bibitem{mongosharding}
+Inc. MongoDB.
+\newblock Mongodb - sharding concepts.
+\newblock \url{http://docs.mongodb.org/manual/sharding/}, November 2013 (Last
+  Accessed).
+
+\bibitem{iozone}
+William Norcott.
+\newblock Iozone - filesystem benchmarking utility.
+\newblock \url{https://www.iozone.org}, October 2013 (Last Accessed).
+
+\bibitem{ksm}
+Linux~kernel Open~source.
+\newblock Kernel samepage merging.
+\newblock \url{http://www.linux-kvm.org/page/KSM}, November 2013 (Last
+  Accessed).
+
+\bibitem{criu}
+OpenVZ.
+\newblock Checkpoint and restore facility for linux in user space.
+\newblock \url{http://criu.org/Main_Page}, October 2013 (Last Accessed).
+
 \bibitem{zones}
 Oracle.
 \newblock Oracle solaris zones.
 \newblock
   \url{http://docs.oracle.com/cd/E18440_01/doc.111/e18415/chapter_zones.htm},
   October 2013 (Last Accessed).
+
+\bibitem{virtualbox}
+Oracle.
+\newblock Oracle vm virtualbox.
+\newblock \url{https://www.virtualbox.org/}, November 2013 (Last Accessed).
 
 \bibitem{openvz}
 Parallels.
@@ -265,6 +446,11 @@ Ian Pratt.
   \url{http://www.cl.cam.ac.uk/research/srg/netos/xen/performance.html},
   October 2013 (Last Accessed).
 
+\bibitem{openstack}
+The~OpenStack project.
+\newblock Openstack - open source cloud computing software.
+\newblock \url{http://www.openstack.org/}, November 2013 (Last Accessed).
+
 \bibitem{dom0_kernels}
 Xen Project.
 \newblock Dom0 - kernels.
@@ -275,6 +461,18 @@ Xen Project.
 Xen Project.
 \newblock Xen - overview.
 \newblock \url{http://wiki.xen.org/wiki/Xen_Overview}, October 2013 (Last
+  Accessed).
+
+\bibitem{virtioblk}
+qemu kvm.
+\newblock Virtio-blk latency measurements.
+\newblock \url{http://www.linux-kvm.org/page/Virtio/Block/Latency}, November
+  2013 (Last Accessed).
+
+\bibitem{virtioscsi}
+qemu kvm.
+\newblock Virtio-scsi overview.
+\newblock \url{http://wiki.qemu.org/Features/VirtioSCSI}, November 2013 (Last
   Accessed).
 
 \bibitem{fourcomp}
@@ -288,6 +486,11 @@ Inc Red~Hat.
 \newblock
   \url{https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Virtualization/3.0/html/Administration_Guide/Tasks_RHEV_Migration_Automatic_Virtual_Machine_Migration.html},
   August 2013 (Last Accessed).
+
+\bibitem{openshift}
+Inc. Red~Hat.
+\newblock Openshift by redhat.
+\newblock \url{http://www.openshift.com/}, November 2013 (Last Accessed).
 
 \bibitem{jails}
 FreeBSD~Matteo Riondato.
@@ -303,24 +506,10 @@ Rami Rosen.
   \url{http://media.wix.com/ugd//295986_d73d8d6087ed430c34c21f90b0b607fd.pdf},
   October 2013 (Last Accessed).
 
-\bibitem{sdn2}
-L.~Sarzyniec, T.~Buchert, E.~Jeanvoine, and L.~Nussbaum.
-\newblock Design and evaluation of a virtual experimental environment for
-  distributed systems.
-\newblock In {\em Parallel, Distributed and Network-Based Processing (PDP),
-  2013 21st Euromicro International Conference on}, pages 172--179, 2013.
-
 \bibitem{5346711}
 J.E. Smith and R.~Nair.
 \newblock The architecture of virtual machines.
 \newblock {\em Computer}, 38(5):32--38, 2005.
-
-\bibitem{container2}
-Stephen Soltesz, Herbert P\"{o}tzl, Marc~E. Fiuczynski, Andy Bavier, and Larry
-  Peterson.
-\newblock Container-based operating system virtualization: a scalable,
-  high-performance alternative to hypervisors.
-\newblock {\em SIGOPS Oper. Syst. Rev.}, 41(3):275--287, March 2007.
 
 \bibitem{coreos}
 Open Source.
@@ -332,10 +521,54 @@ Open Source.
 \newblock Open vswitch.
 \newblock \url{http://openvswitch.org/}, August 2013 (Last Accessed).
 
+\bibitem{kvm}
+Open source software.
+\newblock Kernel based virtual machine (kvm).
+\newblock \url{http://www.linux-kvm.org/page/Main_Page}, November 2013 (Last
+  Accessed).
+
+\bibitem{spec}
+SPEC.
+\newblock Standard performance evaluation corporation.
+\newblock \url{http://www.spec.org/}, November 2013 (Last Accessed).
+
+\bibitem{haproxy}
+Willy Tarreau.
+\newblock Haproxy - the reliable, high performance tcp/http load balancer.
+\newblock \url{http://haproxy.1wt.eu/}, November 2013 (Last Accessed).
+
+\bibitem{procaffinity}
+Martin Thompson.
+\newblock Processor affinity.
+\newblock
+  \url{http://mechanical-sympathy.blogspot.com/2011/07/processor-affinity-part-1.html},
+  October 2013 (Last Accessed).
+
+\bibitem{kickstart}
+Ubuntu.
+\newblock Automatic installation of ubuntu using kickstart.
+\newblock
+  \url{https://help.ubuntu.com/12.04/installation-guide/i386/automatic-install.html},
+  October 2013 (Last Accessed).
+
+\bibitem{vmware}
+Inc. VMware.
+\newblock Vmware virtualization.
+\newblock \url{http://www.vmware.com}, November 2013 (Last Accessed).
+
 \bibitem{paravirt}
 Andrew Whitaker, Marianne Shaw, and Steven~D. Gribble.
 \newblock Scale and performance in the denali isolation kernel.
 \newblock {\em SIGOPS Oper. Syst. Rev.}, 36(SI):195--209, December 2002.
+
+\bibitem{ir}
+D.L. White, S.~Esswein, J.O. Hallstrom, F.~Ali, S.~Parab, G.~Eidson,
+  J.~Gemmill, and C.~Post.
+\newblock The intelligent river : Implementation of sensor web enablement
+  technologies across three tiers of system architecture: Fabric, middleware,
+  and application.
+\newblock In {\em Collaborative Technologies and Systems (CTS), 2010
+  International Symposium on}, pages 340--348, 2010.
 
 \bibitem{container1}
 M.G. Xavier, M.V. Neves, F.D. Rossi, T.C. Ferreto, T.~Lange, and C.A.F.

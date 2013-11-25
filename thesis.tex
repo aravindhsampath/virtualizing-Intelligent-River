@@ -28,6 +28,7 @@
 \usepackage{wrapfig}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{tabularx}
 
 %
 % Make the document your own -- fill in these values to reflect the type of
@@ -82,6 +83,8 @@
     \addtotoc{Title Page}{\maketitle}          % Generate the title page
     \doublespacing                             % Text should be double spaced
     \setcounter{page}{2}                       % Abstract begins on page 2
+    \setcounter{secnumdepth}{5}
+	\setcounter{tocdepth}{5}
     \addtotoc{Abstract}{\input{abstract.tex}}  % Generate the abstract
 
     %
@@ -97,9 +100,9 @@
     %\addtotoc{Acknowledgments}{\input{acknowledgments.tex}}
 
     %\singlespacing                             % Single space the lists
-    %\tableofcontents \clearpage                % Generate the Table of Contents
-    %\addtotoc{List of Tables}{\listoftables}   % Generate the List of Tables
-    %\addtotoc{List of Figures}{\listoffigures} % Generate the List of Figures
+    \tableofcontents \clearpage                % Generate the Table of Contents
+    \addtotoc{List of Tables}{\listoftables}   % Generate the List of Tables
+    \addtotoc{List of Figures}{\listoffigures} % Generate the List of Figures
 
     %
     % Include other optional lists.  Computer science, for example, would
@@ -121,14 +124,14 @@
     % the \inputfile command.
     %
     %\inputfile{eq.tex}
+    
     \inputfile{introduction.tex}
     \inputfile{relatedWork.tex}
-    %\inputfile{hardware.tex}
     \inputfile{virtualization.tex}
-    %\inputfile{software.tex}
-    %\inputfile{evaluation.tex}
-    %\inputfile{results.tex}
-    %\inputfile{conclusions.tex}
+    \inputfile{virtualization_overhead.tex}
+    \inputfile{operational.tex}
+    \inputfile{resourceentitlement.tex}
+    \inputfile{conclusions.tex}
 
     %
     % The appendices are optional.  This is the format for two or more.
@@ -173,8 +176,13 @@
     %               [Dyson and Edgar, 2001] F.W. Dyson, A.G. Edgar ... 2001
     %               [Dyson, 2001] F.W. Dyson ... 2001
     %
-    \bibliographystyle{plain}
-    \addtotoc{Bibliography}{\bibliography{bibliography}}
+    
+    
+    
+    
+    
+   \bibliographystyle{plain}
+   \addtotoc{Bibliography}{\bibliography{bibliography}}
 \end{document}
 
 
