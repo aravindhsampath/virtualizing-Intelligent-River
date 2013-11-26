@@ -1,47 +1,47 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A Full-Virtualization System\relax }}{8}{figure.caption.6}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces KVM - Architecture\relax }}{9}{figure.caption.7}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces KVM - Virtual CPU Management\relax }}{10}{figure.caption.8}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Common Networking Options for KVM\relax }}{12}{figure.caption.9}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Linux Containers - Architecture\relax }}{15}{figure.caption.10}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces cgroups Example Configuration\relax }}{19}{figure.caption.12}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Xen - Architecture\relax }}{20}{figure.caption.13}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Simplified Architectural Model of the Intelligent River\textsuperscript {\textregistered } Middleware System\relax }}{22}{figure.caption.14}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A Full-Virtualization System\relax }}{8}{figure.caption.10}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces KVM - Architecture\relax }}{9}{figure.caption.11}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces KVM - Virtual CPU Management\relax }}{10}{figure.caption.12}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Common Networking Options for KVM\relax }}{12}{figure.caption.13}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Linux Containers - Architecture\relax }}{15}{figure.caption.14}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces cgroups Example Configuration\relax }}{19}{figure.caption.16}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Xen - Architecture\relax }}{20}{figure.caption.17}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Simplified Architectural Model of the Intelligent River\textsuperscript {\textregistered } Middleware System\relax }}{22}{figure.caption.18}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces CPU Virtualization Overhead - 1 Virtual CPU\relax }}{27}{figure.caption.17}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces CPU Virtualization Overhead - 2 Virtual CPUs\relax }}{28}{figure.caption.18}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces CPU Virtualization Overhead - 4 Virtual CPUs\relax }}{29}{figure.caption.19}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces CPU Virtualization Overhead - 8 Virtual CPUs\relax }}{29}{figure.caption.20}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Memory Virt. Overhead - (Virtual Machine Memory = Host Memory = 8 GB)\relax }}{31}{figure.caption.21}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Memory Virt. Overhead (Virtual Machine Memory(5 GB) \textless Host Memory(8 GB))\relax }}{32}{figure.caption.22}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Memory Virt. Overhead - Virtual Machine Memory(10 GB) \textgreater Host Memory(10 GB)\relax }}{33}{figure.caption.23}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Network Virtualization Overhead - Network Bandwidth\relax }}{34}{figure.caption.24}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Virtualization Overhead - Sequential File I/O\relax }}{36}{figure.caption.25}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Virtualization Overhead - Random File I/O\relax }}{36}{figure.caption.26}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Virtualization Overhead - Disk Copy Performance\relax }}{37}{figure.caption.27}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Computing Performance using LINPACK\relax }}{38}{figure.caption.28}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Memory Performance using STREAM\relax }}{39}{figure.caption.29}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Filesystem Performance using IOZONE\relax }}{40}{figure.caption.30}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Nginx Web Server Performance\relax }}{41}{figure.caption.31}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces PostgreSQL Database Server Performance\relax }}{42}{figure.caption.32}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Python Application Performance\relax }}{43}{figure.caption.33}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces PHP Application Performance\relax }}{44}{figure.caption.34}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces MongoDB Insert Performance\relax }}{45}{figure.caption.35}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces MongoDB Find Performance\relax }}{46}{figure.caption.36}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces MongoDB Set Performance\relax }}{47}{figure.caption.37}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces RabbitMQ Publish Performance\relax }}{48}{figure.caption.38}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces RabbitMQ Subscription Performance\relax }}{49}{figure.caption.39}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Triplestore Performance - Storing Observations\relax }}{50}{figure.caption.40}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Triplestore Performance - Retrieving Observations\relax }}{51}{figure.caption.41}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Observation Worker Performance \relax }}{52}{figure.caption.42}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces CPU Virtualization Overhead - 1 Virtual CPU\relax }}{27}{figure.caption.21}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces CPU Virtualization Overhead - 2 Virtual CPUs\relax }}{28}{figure.caption.22}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces CPU Virtualization Overhead - 4 Virtual CPUs\relax }}{29}{figure.caption.23}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces CPU Virtualization Overhead - 8 Virtual CPUs\relax }}{29}{figure.caption.24}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Memory Virt. Overhead - (Virtual Machine Memory = Host Memory = 8 GB)\relax }}{31}{figure.caption.25}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Memory Virt. Overhead (Virtual Machine Memory(5 GB) \textless Host Memory(8 GB))\relax }}{32}{figure.caption.26}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Memory Virt. Overhead - Virtual Machine Memory(10 GB) \textgreater Host Memory(10 GB)\relax }}{32}{figure.caption.27}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Network Virtualization Overhead - Network Bandwidth\relax }}{34}{figure.caption.28}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Virtualization Overhead - Sequential File I/O\relax }}{35}{figure.caption.29}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Virtualization Overhead - Random File I/O\relax }}{36}{figure.caption.30}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Virtualization Overhead - Disk Copy Performance\relax }}{36}{figure.caption.31}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Computing Performance using LINPACK\relax }}{38}{figure.caption.32}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Memory Performance using STREAM\relax }}{39}{figure.caption.33}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Filesystem Performance using IOZONE\relax }}{40}{figure.caption.34}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Nginx Web Server Performance\relax }}{41}{figure.caption.35}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces PostgreSQL Database Server Performance\relax }}{42}{figure.caption.36}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Python Application Performance\relax }}{43}{figure.caption.37}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces PHP Application Performance\relax }}{43}{figure.caption.38}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces MongoDB Insert Performance\relax }}{45}{figure.caption.39}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces MongoDB Find Performance\relax }}{46}{figure.caption.40}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces MongoDB Set Performance\relax }}{46}{figure.caption.41}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces RabbitMQ Publish Performance\relax }}{47}{figure.caption.42}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces RabbitMQ Subscription Performance\relax }}{48}{figure.caption.43}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Triplestore Performance - Storing Observations\relax }}{49}{figure.caption.44}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Triplestore Performance - Retrieving Observations\relax }}{49}{figure.caption.45}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Observation Worker Performance \relax }}{50}{figure.caption.46}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Virtualization - CPU Utilization Perspective\relax }}{60}{figure.caption.48}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces CPU Isolation Efficiency\relax }}{61}{figure.caption.49}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Memory Isolation Efficiency\relax }}{62}{figure.caption.50}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Network Isolation Efficiency\relax }}{63}{figure.caption.51}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Disk I/O Isolation Efficiency\relax }}{64}{figure.caption.52}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Hex-core CPU configuration (2 sockets, 2 node NUMA) \relax }}{66}{figure.caption.53}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Virtualization - CPU Utilization Perspective\relax }}{59}{figure.caption.52}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces CPU Isolation Efficiency\relax }}{60}{figure.caption.53}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Memory Isolation Efficiency\relax }}{61}{figure.caption.54}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Network Isolation Efficiency\relax }}{62}{figure.caption.55}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Disk I/O Isolation Efficiency\relax }}{63}{figure.caption.56}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Hex-Core CPU Configuration (2 sockets, 2 node NUMA) \relax }}{65}{figure.caption.57}
 \addvspace {10\p@ }

@@ -8,11 +8,6 @@ Vishal Ahuja, Matthew Farrens, and Dipak Ghosal.
   for networking and communications systems}, ANCS '12, pages 39--48, New York,
   NY, USA, 2012. ACM.
 
-\bibitem{ec2}
-Inc. Amazon Web~Services.
-\newblock Amazon elastic compute cloud.
-\newblock \url{http://aws.amazon.com/ec2/}, November 2013 (Last Accessed).
-
 \bibitem{amdv}
 AMD.
 \newblock Amd-v virtualization extensions to x86.
@@ -53,7 +48,7 @@ Eric Biederman and Linux Networx.
 
 \bibitem{Tap_devices}
 Davide Brini.
-\newblock Coreos.
+\newblock Tun tap interfaces.
 \newblock \url{http://backreference.org/2010/03/26/tuntap-interface-tutorial/},
   October 2013 (Last Accessed).
 
@@ -239,10 +234,43 @@ IBM.
 \newblock z/vm operating system.
 \newblock \url{http://www.vm.ibm.com/}, November 2013 (Last Accessed).
 
+\bibitem{ec2}
+Amazon Web~Services Inc.
+\newblock Amazon elastic compute cloud.
+\newblock \url{http://aws.amazon.com/ec2/}, November 2013 (Last Accessed).
+
 \bibitem{docker}
 Docker inc.
 \newblock Docker: The linux container engine.
 \newblock \url{https://www.docker.io/}, November 2013 (Last Accessed).
+
+\bibitem{mongodb}
+MongoDB Inc.
+\newblock Mongodb - an open-source document database.
+\newblock \url{http://www.mongodb.org/}, November 2013 (Last Accessed).
+
+\bibitem{mongosharding}
+MongoDB Inc.
+\newblock Mongodb - sharding concepts.
+\newblock \url{http://docs.mongodb.org/manual/sharding/}, November 2013 (Last
+  Accessed).
+
+\bibitem{auto_vm_migration}
+Red~Hat Inc.
+\newblock Automatic virtual machine migration.
+\newblock
+  \url{https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Virtualization/3.0/html/Administration_Guide/Tasks_RHEV_Migration_Automatic_Virtual_Machine_Migration.html},
+  August 2013 (Last Accessed).
+
+\bibitem{openshift}
+Red~Hat Inc.
+\newblock Openshift by redhat.
+\newblock \url{http://www.openshift.com/}, November 2013 (Last Accessed).
+
+\bibitem{vmware}
+VMware Inc.
+\newblock Vmware virtualization.
+\newblock \url{http://www.vmware.com}, November 2013 (Last Accessed).
 
 \bibitem{intelvtx}
 Intel.
@@ -336,6 +364,11 @@ Linux.
 \newblock Control groups.
 \newblock \url{https://lwn.net/Articles/524935/}, October 2013 (Last Accessed).
 
+\bibitem{dd}
+Linux.
+\newblock dd - utility to convert and copy a file.
+\newblock \url{http://linux.die.net/man/1/dd}, October 2013 (Last Accessed).
+
 \bibitem{huge_pages}
 Linux.
 \newblock Kernel documentation - summary of hugetlbpage support.
@@ -389,21 +422,16 @@ Rabbit~Technologies Ltd.
 \newblock Rabbitmq - open source message broker.
 \newblock \url{http://www.rabbitmq.com/}, November 2013 (Last Accessed).
 
+\bibitem{aio}
+Linux~Programmer's Manual.
+\newblock aio - posix asynchronous i/o overview.
+\newblock \url{http://man7.org/linux/man-pages/man7/aio.7.html}, October 2013
+  (Last Accessed).
+
 \bibitem{stream}
 John McCalpin.
 \newblock Stream.
 \newblock \url{http://www.cs.virginia.edu/stream/}, October 2013 (Last
-  Accessed).
-
-\bibitem{mongodb}
-Inc. MongoDB.
-\newblock Mongodb - an open-source document database.
-\newblock \url{http://www.mongodb.org/}, November 2013 (Last Accessed).
-
-\bibitem{mongosharding}
-Inc. MongoDB.
-\newblock Mongodb - sharding concepts.
-\newblock \url{http://docs.mongodb.org/manual/sharding/}, November 2013 (Last
   Accessed).
 
 \bibitem{iozone}
@@ -480,18 +508,6 @@ Benjamin Quétier, Vincent Neri, and Franck Cappello.
 \newblock Scalability comparison of four host virtualization tools.
 \newblock {\em Journal of Grid Computing}, 5(1):83--98, 2007.
 
-\bibitem{auto_vm_migration}
-Inc Red~Hat.
-\newblock Automatic virtual machine migration.
-\newblock
-  \url{https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Virtualization/3.0/html/Administration_Guide/Tasks_RHEV_Migration_Automatic_Virtual_Machine_Migration.html},
-  August 2013 (Last Accessed).
-
-\bibitem{openshift}
-Inc. Red~Hat.
-\newblock Openshift by redhat.
-\newblock \url{http://www.openshift.com/}, November 2013 (Last Accessed).
-
 \bibitem{jails}
 FreeBSD~Matteo Riondato.
 \newblock Jails - freebsd.
@@ -550,11 +566,6 @@ Ubuntu.
 \newblock
   \url{https://help.ubuntu.com/12.04/installation-guide/i386/automatic-install.html},
   October 2013 (Last Accessed).
-
-\bibitem{vmware}
-Inc. VMware.
-\newblock Vmware virtualization.
-\newblock \url{http://www.vmware.com}, November 2013 (Last Accessed).
 
 \bibitem{paravirt}
 Andrew Whitaker, Marianne Shaw, and Steven~D. Gribble.

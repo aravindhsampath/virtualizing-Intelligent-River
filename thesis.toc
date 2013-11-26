@@ -1,7 +1,9 @@
 \contentsline {chapter}{Title Page}{i}{section*.1}
 \contentsline {chapter}{Abstract}{ii}{section*.2}
-\contentsline {chapter}{List of Tables}{v}{section*.4}
-\contentsline {chapter}{List of Figures}{vi}{section*.5}
+\contentsline {chapter}{Dedication}{iii}{section*.4}
+\contentsline {chapter}{Acknowledgments}{iv}{section*.6}
+\contentsline {chapter}{List of Tables}{vii}{section*.8}
+\contentsline {chapter}{List of Figures}{viii}{section*.9}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Contributions}{3}{section.1.2}
@@ -21,13 +23,13 @@
 \contentsline {section}{\numberline {4.6}Performance Comparison - System Benchmarks}{37}{section.4.6}
 \contentsline {section}{\numberline {4.7}Performance Comparison - Workload-Specific Benchmarks}{41}{section.4.7}
 \contentsline {section}{\numberline {4.8}Performance Comparison - Intelligent River\textsuperscript {\textregistered } Middleware}{44}{section.4.8}
-\contentsline {subsection}{\numberline {4.8.1}Virtualization Performance - MongoDB}{45}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.1}Virtualization Performance - MongoDB}{44}{subsection.4.8.1}
 \contentsline {subsection}{\numberline {4.8.2}Virtualization Performance - RabbitMQ}{47}{subsection.4.8.2}
-\contentsline {subsection}{\numberline {4.8.3}Virtualization Performance - Triplestore}{49}{subsection.4.8.3}
-\contentsline {subsection}{\numberline {4.8.4}Virtualization Performance - Observation Workers}{51}{subsection.4.8.4}
-\contentsline {chapter}{\numberline {5}Operational Flexibility}{53}{chapter.5}
-\contentsline {section}{\numberline {5.1}Operational Metrics}{54}{section.5.1}
-\contentsline {section}{\numberline {5.2}Operational features and constraints}{56}{section.5.2}
-\contentsline {chapter}{\numberline {6}Resource Entitlement}{59}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{69}{chapter.7}
-\contentsline {chapter}{Bibliography}{71}{section*.54}
+\contentsline {subsection}{\numberline {4.8.3}Virtualization Performance - Triplestore}{48}{subsection.4.8.3}
+\contentsline {subsection}{\numberline {4.8.4}Virtualization Performance - Observation Workers}{50}{subsection.4.8.4}
+\contentsline {chapter}{\numberline {5}Operational Flexibility}{52}{chapter.5}
+\contentsline {section}{\numberline {5.1}Operational Metrics}{53}{section.5.1}
+\contentsline {section}{\numberline {5.2}Operational Features and Constraints}{55}{section.5.2}
+\contentsline {chapter}{\numberline {6}Resource Entitlement}{58}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{68}{chapter.7}
+\contentsline {chapter}{Bibliography}{70}{section*.58}
